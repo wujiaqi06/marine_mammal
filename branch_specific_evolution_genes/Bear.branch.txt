@@ -1,0 +1,11 @@
+Species	Branch
+Ailuropoda_melanoleuca	B342
+Helarctos_malayanus	B343
+Ursus_thibetanus_thibetanus	B344
+internal	B345
+Ursus_americanus	B346
+Ursus_arctos_horribilis	B347
+Ursus_maritimus	B348
+internal	B349
+internal	B350
+internal	B351
