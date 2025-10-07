@@ -5,10 +5,10 @@ All essential datasets and R scripts required to reproduce the analyses are avai
 
 ## How to Download
 To clone the repository and access all files:
-‘’‘
+```
 git clone https://github.com/wujiaqi06/marine_mammal.git
 cd marine_mammal
-‘’‘
+```
 
 ## Repository Contents
 1. Gene_trait_association/
