@@ -9,10 +9,10 @@ terminal <- branches[branches$Species != "internal",]
 
 gene_branch_interaction <- read.delim(gzfile("../gene_branch_interaction.17432genes.txt.gz"))
 #gene_branch_interaction[c(1:4),c(1:3)]
-marine.gbi <- read.delim("marine.mammal.FDR0.01.gene_branch_interaction.imputated.trait3.1504.t_test.txt")
+marine.gbi <- read.delim("../marine.mammal.FDR0.01.gene_branch_interaction.imputated.trait3.1504.t_test.txt")
 marine.gbi <- scale(marine.gbi)
 #marine.gbi <- data.frame(t(marine.gbi))
-aquatic.gbi <- read.delim("aquatic2.mammal.FDR0.01.gene_branch_interaction.imputated,trait3.1315.t_test.txt")
+aquatic.gbi <- read.delim("../aquatic2.mammal.FDR0.01.gene_branch_interaction.imputated,trait3.1315.t_test.txt")
 aquatic.gbi <- scale(aquatic.gbi)
 #aquatic.gbi <- data.frame(t(aquatic.gbi))
 
