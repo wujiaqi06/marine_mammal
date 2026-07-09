@@ -1,0 +1,29 @@
+metric_group	metric	value	denominator	percent_or_rate	comparison_or_set	source_package_or_table	interpretation_boundary_notes
+baseline_counts	marine tested genes	17258			baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	Baseline marine-binary branch-level screen only.
+baseline_counts	marine FDR-significant genes	1559	17258	9.03	baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	FDR <= 0.01.
+baseline_counts	marine slow genes	1366	1559	87.62	baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	Slow = lower mean GBI on trait-state branches than background branches.
+baseline_counts	marine fast genes	193	1559	12.38	baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	Fast = higher mean GBI on trait-state branches than background branches.
+baseline_counts	aquatic tested genes	17298			baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	Baseline binary aquatic-dependence branch-level screen only.
+baseline_counts	aquatic FDR-significant genes	1227	17298	7.09	baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	FDR <= 0.01.
+baseline_counts	aquatic slow genes	1055	1227	85.98	baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	Slow = lower mean GBI on trait-state branches than background branches.
+baseline_counts	aquatic fast genes	172	1227	14.02	baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	Fast = higher mean GBI on trait-state branches than background branches.
+slow_overlap_partitions	shared slow genes	983			marine_slow ∩ aquatic_slow	slow_gene_layer_characterization_20260604_175503	Shared between trait contrasts/layers; not a literal evolutionary sequence.
+slow_overlap_partitions	marine-only slow genes	383			marine_slow - aquatic_slow	slow_gene_layer_characterization_20260604_175503	Layer-biased marine-specialization slow component.
+slow_overlap_partitions	aquatic-only slow genes	72			aquatic_slow - marine_slow	slow_gene_layer_characterization_20260604_175503	Layer-biased general aquatic-dependence slow component.
+slow_overlap_partitions	all slow union	1438			marine_slow ∪ aquatic_slow	slow_gene_layer_characterization_20260604_175503	Union of the two baseline slow sets.
+slow_overlap_statistics	percent of marine slow genes shared with aquatic slow	71.96	1366		baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	Value is a percent.
+slow_overlap_statistics	percent of aquatic slow genes shared with marine slow	93.18	1055		baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	Value is a percent.
+slow_overlap_statistics	slow-gene Jaccard index	0.6836			baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	shared_slow / all_slow_union.
+direction_overlap	marine slow ∩ aquatic fast	0			baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	Cross-direction overlap.
+direction_overlap	marine fast ∩ aquatic slow	0			baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	Cross-direction overlap.
+direction_overlap	marine fast ∩ aquatic fast	155			baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	Shared fast-direction overlap.
+direction_overlap	all significant gene overlap regardless of direction	1138			marine_significant ∩ aquatic_significant	slow_gene_layer_characterization_20260604_175503	Overlap among baseline FDR-significant genes.
+direction_overlap	significant-gene Jaccard index	0.6905			marine_significant vs aquatic_significant	slow_gene_layer_characterization_20260604_175503	FDR-significant overlap / FDR-significant union.
+direction_overlap	direction concordant among genes significant in both screens	1138	1138	100	baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	slow/slow plus fast/fast among genes significant in both screens.
+direction_overlap	direction discordant among genes significant in both screens	0	1138	0	baseline marine vs baseline binary aquatic-dependence	slow_gene_layer_characterization_20260604_175503	marine_slow/aquatic_fast plus marine_fast/aquatic_slow.
+rough_overlap_null	null universe size	17257			genes tested in both baseline marine-binary and binary aquatic-dependence screens	slow_gene_layer_characterization_20260604_175503	Rough coauthor-discussion null only; not main manuscript evidence.
+rough_overlap_null	observed shared slow genes	983			marine_slow vs aquatic_slow	slow_gene_layer_characterization_20260604_175503	Observed overlap.
+rough_overlap_null	null median shared genes	84			10,000 random-set permutations	slow_gene_layer_characterization_20260604_175503	Random sets matched marine_slow and aquatic_slow sizes.
+rough_overlap_null	null 95% interval lower	67			10,000 random-set permutations	slow_gene_layer_characterization_20260604_175503	2.5 percentile.
+rough_overlap_null	null 95% interval upper	100			10,000 random-set permutations	slow_gene_layer_characterization_20260604_175503	97.5 percentile.
+rough_overlap_null	upper-tail empirical P with +1 correction	9.999e-05			10,000 random-set permutations	slow_gene_layer_characterization_20260604_175503	Rough coauthor-discussion null only; not main manuscript evidence.

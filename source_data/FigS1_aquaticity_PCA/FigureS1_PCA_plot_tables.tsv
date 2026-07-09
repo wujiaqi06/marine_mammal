@@ -1,0 +1,321 @@
+record_type	component	value	species_id	common_name_paper	curated_trait_category	aquaticity_score_sum_0_18	PC1	PC2	dimension	label	PC1_loading	PC2_loading	arrow_x	arrow_y
+variance_explained	PC1	0.96973798717361												
+variance_explained	PC2	0.0224103372444321												
+variance_explained	PC3	0.00405976752139007												
+variance_explained	PC4	0.00309592028044106												
+variance_explained	PC5	0.000695987780126951												
+correlation	PC1_vs_total	0.999917675728162												
+R_squared	PC1_vs_total	0.999835358233609												
+lm_intercept	PC1_vs_total	3.36092715231789												
+lm_slope	PC1_vs_total	2.94589302690129												
+category_count	terrestrial	226												
+category_count	semi-aquatic	13												
+category_count	non-marine aquatic	12												
+category_count	marine	51												
+dimension_loading									score_foraging_medium_0_3	Foraging medium	0.444188241622205	-0.562150972571097	0.393230267320496	-0.497660128082865
+dimension_loading									score_locomotion_escape_0_3	Locomotion / escape	0.448503099827359	-0.414593272638519	0.397050118200082	-0.367030479765798
+dimension_loading									score_reproduction_nursery_0_3	Reproduction / nursery	0.442610558810916	0.621996031831376	0.391833578764841	0.550639667939181
+dimension_loading									score_morphophysiology_0_5	Morpho-physiological specialization	0.448041470862666	0.353841286523762	0.396641448036897	0.313248057131396
+dimension_loading									score_time_budget_0_4	Aquatic time budget	0.452654955861671	0.00399783159772667	0.400725666774458	0.00353919406361385
+species_scores			Balaena_mysticetus	Bowhead whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Balaenoptera_acutorostrata_scammoni	Minke whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Balaenoptera_bonaerensis	Antarctic minke whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Balaenoptera_edeni	Pygmy Bryde's whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Balaenoptera_musculus	Blue whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Cephalorhynchus_commersonii	Commerson's dolphin	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Delphinapterus_leucas	Beluga whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Dugong_dugon	Dugong	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Eschrichtius_robustus	Grey whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Eubalaena_australis	Southern right whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Eubalaena_glacialis	North Atlantic right whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Eubalaena_japonica	North Pacific right whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Globicephala_melas	Long-finned pilot whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Grampus_griseus	Risso's dolphin	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Hydrodamalis_gigas	Steller's sea cow	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Inia_geoffrensis	Boutu	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Kogia_breviceps	Pygmy sperm whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Lagenorhynchus_obliquidens	Pacific white-sided dolphin	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Lipotes_vexillifer	Yangtze River dolphin	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Megaptera_novaeangliae	Humpback whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Mesoplodon_bidens	Sowerby's beaked whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Mesoplodon_densirostris	Blainville's beaked whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Mesoplodon_europaeus	Gervais' beaked whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Mesoplodon_stejnegeri	Stejneger's beaked whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Monodon_monoceros	Narwhal	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Neophocaena_asiaeorientalis_asiaeorientalis	Yangtze finless porpoise	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Orcinus_orca	Killer whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Peponocephala_electra	Melon-headed whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Phocoena_phocoena	Harbor porpoise	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Phocoena_sinus	Vaquita	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Physeter_catodon	Sperm whale	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Platanista_minor	Indus River dolphin	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Sousa_chinensis	Indo-pacific humpbacked dolphin	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Steno_bredanensis	Rough-toothed dolphin	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Trichechus_manatus_latirostris	Florida manatee	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Tursiops_aduncus	Indo-pacific bottlenose dolphin	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Tursiops_truncatus	Common bottlenose dolphin	marine	18	4.95584824973746	0.389171130366785						
+species_scores			Enhydra_lutris_kenyoni	Sea otter	marine	13	3.27571845704528	-1.21923595182622						
+species_scores			Erignathus_barbatus	Bearded seal	marine	15	3.95736552461046	-0.416431551053584						
+species_scores			Halichoerus_grypus	Gray seal	marine	15	3.95736552461046	-0.416431551053584						
+species_scores			Leptonychotes_weddellii	Weddell seal	marine	15	3.95736552461046	-0.416431551053584						
+species_scores			Mirounga_angustirostris	Northern elephant seal	marine	15	3.95736552461046	-0.416431551053584						
+species_scores			Mirounga_leonina	Southern elephant seal	marine	15	3.95736552461046	-0.416431551053584						
+species_scores			Neomonachus_schauinslandi	Hawaiian monk seal	marine	15	3.95736552461046	-0.416431551053584						
+species_scores			Phoca_largha	Spotted seal	marine	15	3.95736552461046	-0.416431551053584						
+species_scores			Phoca_vitulina	Harbor seal	marine	15	3.95736552461046	-0.416431551053584						
+species_scores			Odobenus_rosmarus_divergens	Pacific walrus	marine	14	3.52770460251137	-1.02022959260191						
+species_scores			Callorhinus_ursinus	Northern fur seal	marine	14	3.52770460251137	-1.02022959260191						
+species_scores			Castor_canadensis	American beaver	non-marine aquatic	14	3.56852888059077	-0.0569935520119836						
+species_scores			Eumetopias_jubatus	Steller sea lion	marine	14	3.52770460251137	-1.02022959260191						
+species_scores			Pteronura_brasiliensis	Giant otter	non-marine aquatic	12	3.02373231157919	-1.41824231105053						
+species_scores			Zalophus_californianus	California sea lion	marine	14	3.52770460251137	-1.02022959260191						
+species_scores			Hippopotamus_amphibius	Hippopotamus	non-marine aquatic	11	2.69178355691194	0.0167638109388794						
+species_scores			Aonyx_cinereus	Asian small-clawed otter	non-marine aquatic	10	2.31806000999767	-1.06160259265667						
+species_scores			Lontra_canadensis	Northern American river otter	non-marine aquatic	10	2.31806000999767	-1.06160259265667						
+species_scores			Lutra_lutra	Eurasian river otter	non-marine aquatic	10	2.31806000999767	-1.06160259265667						
+species_scores			Ondatra_zibethicus	Muskrat	non-marine aquatic	10	2.49573478663066	-0.656810910332653						
+species_scores			Neovison_vison	American mink	non-marine aquatic	9	2.06607386453158	-1.26060895188098						
+species_scores			Hydrochoerus_hydrochaeris	Capybara	non-marine aquatic	8	1.69330083178494	-0.78883887048149						
+species_scores			Kobus_leche_leche	Lechwe	non-marine aquatic	8	1.69330083178494	-0.78883887048149						
+species_scores			Myocastor_coypus	Nutria	non-marine aquatic	8	1.69330083178494	-0.78883887048149						
+species_scores			Arvicola_amphibius	Eurasian water vole	non-marine aquatic	7	1.26363990968585	-1.39263691202981						
+species_scores			Ursus_maritimus	Polar bear	marine	7	1.19879039759011	-1.19642883345323						
+species_scores			Alces_alces	Eurasian elk	semi-aquatic	4	0.305981462638241	-1.23500355286026						
+species_scores			Elaphurus_davidianus	Pere David's deer	semi-aquatic	4	0.305981462638241	-1.23500355286026						
+species_scores			Hydropotes_inermis	Chinese water deer	semi-aquatic	3	-0.0667915701084037	-0.76323347146077						
+species_scores			Kobus_ellipsiprymnus	Waterbuck	semi-aquatic	3	-0.0667915701084037	-0.76323347146077						
+species_scores			Tapirus_indicus	Asiatic tapir	semi-aquatic	3	-0.0667915701084037	-0.76323347146077						
+species_scores			Tapirus_terrestris	Brazilian tapir	semi-aquatic	3	-0.0667915701084037	-0.76323347146077						
+species_scores			Babyrousa_celebensis	North Sulawesi babirusa	semi-aquatic	2	-0.383627227670235	-0.766031752108501						
+species_scores			Bubalus_bubalis	Asian water buffalo	semi-aquatic	2	-0.439564602855048	-0.291463390061281						
+species_scores			Elephas_maximus	Asiatic elephant	semi-aquatic	2	-0.439564602855048	-0.291463390061281						
+species_scores			Loxodonta_africana	African savanna elephant	semi-aquatic	2	-0.439564602855048	-0.291463390061281						
+species_scores			Syncerus_caffer	African water buffalo	semi-aquatic	2	-0.439564602855048	-0.291463390061281						
+species_scores			Acinonyx_jubatus	Cheetah	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Acomys_russatus	Golden spiny mouse	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Aeorestes_cinereus	Hoary bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ailuropoda_melanoleuca	Giant panda	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ailurus_fulgens	Lesser panda	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Allactaga_bullata	Gobi jerboa	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Allenopithecus_nigroviridis	Allen's swamp monkey	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Alouatta_palliata	Mantled howler monkey	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ammotragus_lervia	Aoudad	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Anoura_caudifer	Tailed tailless bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Antidorcas_marsupialis	Springbok	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Antilocapra_americana	Pronghorn	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Aotus_nancymaae	Mas night monkey	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Aplodontia_rufa	Mountain beaver	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Artibeus_jamaicensis	Jamaican fruit-eating bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Arvicanthis_niloticus	African grass rat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ateles_geoffroyi	Black-handed spider monkey	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Axis_porcinus	Hog deer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Bassariscus_astutus	Ringtail	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Bassariscus_sumichrasti	Cacomistle	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Beatragus_hunteri	Hirola	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Bos_frontalis	Gayal	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Bos_mutus	Wild yak	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Callithrix_jacchus	White-tufted-ear marmoset	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Camelus_ferus	Wild Bactrian camel	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Capra_aegagrus	Wild goat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Capra_sibirica	Siberian ibex	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Capreolus_pygargus	Eastern roe deer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Carlito_syrichta	Philippine tarsier	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Catagonus_wagneri	Chacoan peccary	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Cavia_tschudii	Montane guinea pig	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Cebus_capucinus_imitator	White-faced sapajou	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Cephalophus_harveyi	Harvey's duiker	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ceratotherium_simum_simum	Southern white rhinoceros	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Cercocebus_atys	Sooty mangabey	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Cercopithecus_mona	Mona monkey	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Cervus_hanglu_yarkandensis	Yarkand deer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Chinchilla_lanigera	Long-tailed chinchilla	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Chlorocebus_sabaeus	Green monkey	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Choloepus_didactylus	Southern two-toed sloth	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Choloepus_hoffmanni	Hoffmann's two-fingered sloth	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Chrysochloris_asiatica	Cape golden mole	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Chrysocyon_brachyurus	Maned wolf	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Coendou_prehensilis	Brazilian porcupine	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Colobus_angolensis_palliatus	Angolan colobus	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Connochaetes_taurinus	Brindled gnu	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Craseonycteris_thonglongyai	Hog-nosed bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Cricetomys_gambianus	Gambian giant pouched rat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Cricetulus_griseus	Chinese hamster	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Crocuta_crocuta	Spotted hyena	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Cryptoprocta_ferox	Fossa	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ctenodactylus_gundi	Northern gundi	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ctenomys_sociabilis	Social tuco-tuco	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Cynomys_gunnisoni	Gunnison's prairie dog	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Damaliscus_lunatus	Topi	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Dasyprocta_punctata	Punctate agouti	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Dasypus_novemcinctus	Nine-banded armadillo	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Daubentonia_madagascariensis	Aye-aye	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Dicerorhinus_sumatrensis_sumatrensis	Sumatran rhinoceros	semi-aquatic	3	-0.0667915701084037	-0.76323347146077						
+species_scores			Diceros_bicornis	Black rhinoceros	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Dinomys_branickii	Pacarana	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Dipodomys_ordii	Ord's kangaroo rat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Dolichotis_patagonum	Patagonian cavy	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Echinops_telfairi	Small Madagascar hedgehog	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Eidolon_dupreanum	Malagasy straw-colored fruit bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Elephantulus_edwardii	Cape elephant shrew	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Eptesicus_fuscus	Big brown bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Equus_burchellii_boehmi	Burchell's zebra	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Equus_zebra	Mountain zebra	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Erethizon_dorsatum	North American porcupine	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Erythrocebus_patas	Red guenon	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Eudorcas_thomsonii	Thomson's gazelle	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Eulemur_flavifrons	Sclater's lemur	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Felis_nigripes	Black-footed cat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Galeopterus_variegatus	Sunda flying lemur	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Giraffa_camelopardalis	Giraffe	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Giraffa_tippelskirchi	Masai giraffe	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Glis_glis	Fat dormouse	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Gorilla_gorilla_gorilla	Western lowland gorilla	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Grammomys_surdaster	Grammomys surdaster	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Homo_sapiens	Human	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Helarctos_malayanus	Malayan sun bear	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Helogale_parvula	Dwarf mongoose	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Hemitragus_hylocrius	Nilgiri tahr	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Heterocephalus_glaber	Naked mole-rat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Heterohyrax_brucei	Yellow-spotted hyrax	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Hipposideros_galeritus	Cantor's roundleaf bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Hippotragus_equinus	Roan antelope	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Hippotragus_niger_niger	Sable antelope	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Hyaena_hyaena	Striped hyena	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Hylobates_moloch	Silvery gibbon	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Hystrix_cristata	Crested porcupine	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ictidomys_tridecemlineatus	Thirteen-lined ground squirrel	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Indri_indri	Indri	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Jaculus_jaculus	Lesser Egyptian jerboa	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Lama_guanicoe_cacsilensis	Guanaco	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Lemur_catta	Ring-tailed lemur	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Leptonycteris_yerbabuenae	Lesser long-nosed bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Lepus_timidus	Mountain hare	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Litocranius_walleri	Gerenuk	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Lycaon_pictus	African hunting dog	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Lynx_canadensis	Canada lynx	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Lynx_pardinus	Spanish lynx	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Macaca_mulatta	Rhesus monkey	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Macroglossus_sobrinus	Long-tongued fruit bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Macrotus_californicus	California big-eared bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Mandrillus_sphinx	Mandrill	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Manis_javanica	Malayan pangolin	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Manis_pentadactyla	Chinese pangolin	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Manis_tricuspis	Tree pangolin	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Marmota_monax	Woodchuck	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Martes_zibellina	Sable	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Mastomys_coucha	Southern multimammate mouse	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Megaderma_lyra	Indian false vampire	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Mellivora_capensis	Ratel	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Meriones_unguiculatus	Mongolian gerbil	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Mesocricetus_auratus	Golden hamster	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Microcebus_murinus	Gray mouse lemur	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Microtus_agrestis	Short-tailed field vole	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Miniopterus_schreibersii	Schreibers' long-fingered bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Mirza_coquereli	Coquerel's mouse lemur	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Molossus_molossus	Pallas's mastiff bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Mormoops_blainvillei	Antillean ghost-faced bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Moschus_berezovskii	Chinese forest musk deer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Moschus_moschiferus	Siberian musk deer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Mungos_mungo	Banded mongoose	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Muntiacus_crinifrons	Black muntjac	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Muntiacus_muntjak	Muntjak	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Muntiacus_reevesi	Reeves' muntjac	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Mus_caroli	Ryukyu mouse	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Muscardinus_avellanarius	Hazel dormouse	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Mustela_erminea	Ermine	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Mustela_putorius_furo	Domestic ferret	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Myodes_glareolus	Bank vole	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Myotis_myotis	Greater mouse-eared bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Myrmecophaga_tridactyla	Giant anteater	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Nanger_granti	Grant's gazelle	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Nannospalax_galili	Upper Galilee mountains blind mole rat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Nasua_narica	White-nosed coati	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Neofelis_nebulosa	Clouded leopard	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Noctilio_leporinus	Greater bulldog bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Nomascus_leucogenys	Northern white-cheeked gibbon	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Nycticebus_coucang	Slow loris	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ochotona_princeps	American pika	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Octodon_degus	Degu	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Odocoileus_hemionus_hemionus	Mule deer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Odocoileus_virginianus	White-tailed deer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Okapia_johnstoni	Okapi	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Onychomys_torridus	Southern grasshopper mouse	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Oreamnos_americanus	Mountain goat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Oreotragus_oreotragus	Klipspringer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Orycteropus_afer_afer	Aardvark	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Oryctolagus_cuniculus_cuniculus	Rabbit	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Oryx_dammah	Scimitar-horned oryx	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Oryx_gazella	Gemsbok	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Otolemur_garnettii	Small-eared galago	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ovis_canadensis	Bighorn sheep	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ovis_nivicola_lydekkeri	Snow sheep	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ovis_orientalis	Asiatic mouflon	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Pachyuromys_duprasi	Fat-tailed gerbil	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Pan_troglodytes	Chimpanzee	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Panthera_leo	Lion	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Panthera_onca	Jaguar	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Panthera_pardus	Leopard	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Panthera_uncia	Snow leopard	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Papio_anubis	Olive baboon	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Paradoxurus_hermaphroditus	Asian palm civet	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Pedetes_capensis	Springhare	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Peromyscus_californicus_insignis	California mouse	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Petromus_typicus	Dassie-rat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Phataginus_tricuspis	Tree pangolin	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Phyllostomus_discolor	Pale spear-nosed bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Piliocolobus_tephrosceles	Ugandan red Colobus	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Pipistrellus_kuhlii	Kuhl's pipistrelle	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Pithecia_pithecia	White-faced saki	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Plecturocebus_donacophilus	Bolivian titi	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Pongo_abelii	Sumatran orangutan	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Potos_flavus	Kinkajou	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Prionailurus_bengalensis_euptilurus	Amur leopard cat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Procapra_przewalskii	Przewalski's gazelle	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Procavia_capensis	Cape rock hyrax	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Procyon_lotor	Raccoon	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Prolemur_simus	Greater bamboo lemur	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Propithecus_coquereli	Coquerel's sifaka	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Przewalskium_albirostris	White-lipped deer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Psammomys_obesus	Fat sand rat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Pteropus_pselaphon	Bonin flying fox	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Puma_yagouaroundi	Jaguarundi	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Pygathrix_nemaeus	Red shanked douc langur	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Rangifer_tarandus_granti	Reindeer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Rhinoceros_unicornis	Greater Indian rhinoceros	semi-aquatic	3	-0.0667915701084037	-0.76323347146077						
+species_scores			Rhinolophus_sinicus	Chinese rufous horseshoe bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Rhinopithecus_bieti	Black snub-nosed monkey	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Rhizomys_pruinosus	Hoary bamboo rat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Rhombomys_opimus	Great gerbil	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Rousettus_aegyptiacus	Egyptian rousette	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Saguinus_imperator	Tamarin	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Saimiri_boliviensis_boliviensis	Bolivian squirrel monkey	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Sapajus_apella	Tufted capuchin	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Scalopus_aquaticus	Eastern mole	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Sciurus_vulgaris	Eurasian red squirrel	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Semnopithecus_entellus	Hanuman langur	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Sigmodon_hispidus	Hispid cotton rat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Solenodon_paradoxus	Hispaniolan solenodon	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Spilogale_gracilis	Western spotted skunk	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Sturnira_hondurensis	Sturnira hondurensis	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Suricata_suricatta	Meerkat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Sylvicapra_grimmia	Bush duiker	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Sylvilagus_bachmani	Brush rabbit	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Talpa_occidentalis	Iberian mole	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Taxidea_taxus_jeffersonii	American badger	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Theropithecus_gelada	Gelada	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Thryonomys_swinderianus	Greater cane rat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Tonatia_saurophila	Stripe-headed round-eared bat	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Trachypithecus_francoisi	Francois's langur	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Tragelaphus_strepsiceros	Greater kudu	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Tragulus_javanicus	Java mouse-deer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Tragulus_kanchil	Lesser mouse-deer	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Tupaia_chinensis	Chinese tree shrew	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Urocitellus_parryii	Arctic ground squirrel	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Uromys_caudimaculatus	Giant uromys	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ursus_americanus	American black bear	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ursus_arctos_horribilis	Brown bear	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Ursus_thibetanus_thibetanus	Asiatic black bear	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Vicugna_vicugna_mensalis	Vicugna	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Vulpes_lagopus	Arctic fox	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Vulpes_vulpes	Red fox	terrestrial	0	-1.14523690443657	0.0651763283325886						
+species_scores			Xerus_inauris	South African ground squirrel	terrestrial	0	-1.14523690443657	0.0651763283325886						

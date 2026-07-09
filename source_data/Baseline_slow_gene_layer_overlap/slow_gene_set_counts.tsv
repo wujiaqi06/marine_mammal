@@ -1,0 +1,23 @@
+metric	value	denominator	percent	notes
+marine_tested_genes	17258			Baseline marine-binary full t-test table rows.
+aquatic_tested_genes	17298			Baseline binary aquatic-dependence full t-test table rows.
+marine_FDR_significant_genes	1559	17258	9.03	FDR <= 0.01 in baseline marine-binary screen.
+marine_slow_genes	1366	1559	87.62	Slow = lower mean GBI on trait-state branches than background branches.
+marine_fast_genes	193	1559	12.38	Fast = higher mean GBI on trait-state branches than background branches.
+aquatic_FDR_significant_genes	1227	17298	7.09	FDR <= 0.01 in baseline binary aquatic-dependence screen.
+aquatic_slow_genes	1055	1227	85.98	Slow = lower mean GBI on trait-state branches than background branches.
+aquatic_fast_genes	172	1227	14.02	Fast = higher mean GBI on trait-state branches than background branches.
+shared_slow	983			marine_slow intersect aquatic_slow.
+marine_only_slow	383			marine_slow minus aquatic_slow.
+aquatic_only_slow	72			aquatic_slow minus marine_slow.
+all_slow_union	1438			marine_slow union aquatic_slow.
+marine_slow_shared_with_aquatic_slow_percent	71.96	1366		Percent of marine_slow genes also in aquatic_slow.
+aquatic_slow_shared_with_marine_slow_percent	93.18	1055		Percent of aquatic_slow genes also in marine_slow.
+slow_jaccard_index	0.6836			shared_slow / all_slow_union.
+marine_slow_intersect_aquatic_fast	0			Cross-direction overlap.
+marine_fast_intersect_aquatic_slow	0			Cross-direction overlap.
+marine_fast_intersect_aquatic_fast	155			Shared fast-direction overlap.
+marine_significant_intersect_aquatic_significant	1138			All FDR-significant overlap regardless of direction.
+significant_gene_jaccard_index	0.6905			FDR-significant overlap / FDR-significant union.
+direction_concordant_among_both_significant	1138	1138	100.00	slow/slow plus fast/fast among genes significant in both screens.
+direction_discordant_among_both_significant	0	1138	0.00	marine_slow/aquatic_fast plus marine_fast/aquatic_slow.

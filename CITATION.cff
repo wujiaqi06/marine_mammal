@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code package, please cite the associated manuscript and Dryad dataset."
+title: "Marine mammal endpoint-fix reproducibility code package"
+authors:
+  - family-names: Wu
+    given-names: Jiaqi
+date-released: 2026-07-09
+version: "v1.0-endpoint-fix"
+repository-code: "https://github.com/wujiaqi06/marine_mammal"
+license: "MIT"

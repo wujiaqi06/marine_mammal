@@ -1,0 +1,17 @@
+check_item	status	n_expected	n_observed	n_problem	example_problem	notes
+new branch count	PASS	601	601	0	NA	
+old branch count	PASS	601	601	0	NA	
+new terminal branch count	PASS	302	302	0	NA	
+old terminal branch count	PASS	302	302	0	NA	
+terminal taxon set identity	PASS	302	302	0	NA	
+canonical split set identity	PASS	601	601	0	NA	Old split keys are derived from old/new crosswalk plus endpointfix split identities.
+one-to-one mapping	PASS	601	601	0	NA	
+duplicate new split keys	PASS	0	0	0	NA	
+duplicate old split keys	PASS	0	0	0	NA	
+unmapped new branches	PASS	0	0	0	NA	
+unmapped old branches	PASS	0	0	0	NA	
+GBI fix header all mapped	PASS	601	601	0	NA	
+GBI free header all mapped	PASS	601	601	0	NA	
+branch_effect fix labels all mapped	PASS	601	601	0	NA	
+branch_effect free labels all mapped	PASS	601	601	0	NA	
+support_b labels all mapped	PASS	601	601	0	NA	

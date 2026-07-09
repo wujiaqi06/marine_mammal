@@ -1,0 +1,21 @@
+Figure S1 PCA summary
+Input table: ${LEGACY_FIGURE_ROOT}/FigureS1/FigureS1_PCA_input_table.preview.tsv
+Species total: 302
+
+PC1 explained variance: 96.9738%
+PC2 explained variance: 2.2410%
+Correlation between PC1 and total aquaticity score: 0.999918
+R^2 between PC1 and total aquaticity score: 0.999835
+
+PC1 and PC2 loadings by aquaticity dimension:
+- Foraging medium: PC1 = 0.444188; PC2 = -0.562151
+- Locomotion / escape: PC1 = 0.448503; PC2 = -0.414593
+- Reproduction / nursery: PC1 = 0.442611; PC2 = 0.621996
+- Morpho-physiological specialization: PC1 = 0.448041; PC2 = 0.353841
+- Aquatic time budget: PC1 = 0.452655; PC2 = 0.003998
+
+Number of species in each trait category:
+- terrestrial: 226
+- semi-aquatic: 13
+- non-marine aquatic: 12
+- marine: 51

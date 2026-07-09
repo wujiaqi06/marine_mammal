@@ -1,0 +1,5 @@
+# Copy this file and edit paths for local reproduction.
+dryad_data_root: /path/to/Dryad_ready_data
+source_data_root: /path/to/Dryad_ready_data/13_source_data
+large_archive_root: /path/to/Dryad_ready_data/17_large_matrix_archives
+output_root: /path/to/local/reproduction_outputs

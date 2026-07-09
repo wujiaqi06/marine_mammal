@@ -1,0 +1,2 @@
+dryad_folder	description
+17_large_matrix_archives	Fixed-topology gene trees, old-label-converted branch-coordinate matrices and old-label-converted GBI matrices are in Dryad, not GitHub. Branch-label mapping tables are mirrored in GitHub metadata/branch_label_mapping/.

@@ -1,0 +1,73 @@
+module	module_label	gene_set_category	gene_count	gene_names	gene_label_with_markers	gene_label_parts	x_position	y_position	bubble_size	color
+epithelial barrier / keratinization / body-surface interface	"Epithelial barrier / keratinization /
+body-surface interface"	Shared aquatic foundation	4	KRTDAP, SDR9C7, TGM1, TGM3	KRTDAP#, SDR9C7#*, TGM1, TGM3#*	KRTDAP|KRTDAP#|#8B0000|marine=0.386565925079529|aquatic=0.0447305719374455|display=0.21564824850848727;SDR9C7|SDR9C7#*|#8B0000|marine=0.409389888665918|aquatic=0.220181989308241|display=0.3147859389870795;TGM1|TGM1|#8B0000|marine=0.0321438716739072|aquatic=0.0320265937643637|display=0.03208523271913545;TGM3|TGM3#*|#8B0000|marine=0.691315381170856|aquatic=1.04080869919882|display=0.866062040184838	0.0	12	707.427003125201	#9E9E9E
+epithelial barrier / keratinization / body-surface interface	"Epithelial barrier / keratinization /
+body-surface interface"	Marine-specific predictors	4	ALOX12B, CAPN14, KRT17, TGM5	ALOX12B#, CAPN14#, KRT17#, TGM5	ALOX12B|ALOX12B#|#8B0000|marine=0.149753620737968|aquatic=0.0|display=0.149753620737968;CAPN14|CAPN14#|#8B0000|marine=0.342438899161804|aquatic=0.0|display=0.342438899161804;KRT17|KRT17#|#8B0000|marine=0.189861649168978|aquatic=0.0|display=0.189861649168978;TGM5|TGM5|#8B0000|marine=0.0730096499546588|aquatic=0.0|display=0.0730096499546588	1.28	12	707.427003125201	#4C78A8
+epithelial barrier / keratinization / body-surface interface	"Epithelial barrier / keratinization /
+body-surface interface"	Aquatic-specific predictors	1	PRSS53	PRSS53*	PRSS53|PRSS53*|#8B0000|marine=0.0|aquatic=0.194083977905306|display=0.194083977905306	2.65	12	242.0	#44A08D
+hematological / platelet / circulatory regulation	"Hematological / platelet /
+circulatory regulation"	Shared aquatic foundation	3	CD34, EPOR, HGFAC	CD34#, EPOR#, HGFAC#*	CD34|CD34#|#1F4E79|marine=-0.231912055829233|aquatic=-0.0959044894988044|display=-0.1639082726640187;EPOR|EPOR#|#1F4E79|marine=-0.562386788005208|aquatic=-0.0639836237556098|display=-0.31318520588040893;HGFAC|HGFAC#*|#1F4E79|marine=-0.314672853107267|aquatic=-0.251889764940469|display=-0.283281309023868	0.0	11	524.1264092199166	#9E9E9E
+hematological / platelet / circulatory regulation	"Hematological / platelet /
+circulatory regulation"	Marine-specific predictors	2	F11, HIGD1B	F11#, HIGD1B#	F11|F11#|#1F4E79|marine=-0.254306353084796|aquatic=0.0|display=-0.254306353084796;HIGD1B|HIGD1B#|#8B0000|marine=0.328380050132626|aquatic=0.0|display=0.328380050132626	1.28	11	366.70979697263294	#4C78A8
+hematological / platelet / circulatory regulation	"Hematological / platelet /
+circulatory regulation"	Aquatic-specific predictors	2	ITGA2B, PDGFB	ITGA2B, PDGFB*	ITGA2B|ITGA2B|#1F4E79|marine=0.0|aquatic=-0.001292049701436|display=-0.001292049701436;PDGFB|PDGFB*|#1F4E79|marine=0.0|aquatic=-0.348561123284862|display=-0.348561123284862	2.65	11	366.70979697263294	#44A08D
+immune / cytokine / inflammatory regulation	"Immune / cytokine /
+inflammatory regulation"	Shared aquatic foundation	1	IL33	IL33#*	IL33|IL33#*|#8B0000|marine=0.27044270721607|aquatic=0.340038935001018|display=0.305240821108544	0.0	10	242.0	#9E9E9E
+immune / cytokine / inflammatory regulation	"Immune / cytokine /
+inflammatory regulation"	Marine-specific predictors	1	TREM2	TREM2	TREM2|TREM2|#1F4E79|marine=-0.0898257166079112|aquatic=0.0|display=-0.0898257166079112	1.28	10	242.0	#4C78A8
+immune / cytokine / inflammatory regulation	"Immune / cytokine /
+inflammatory regulation"	Aquatic-specific predictors	1	MEFV	MEFV*	MEFV|MEFV*|#1F4E79|marine=0.0|aquatic=-0.106234859098565|display=-0.106234859098565	2.65	10	242.0	#44A08D
+sensory remodeling / olfactory or visual systems	"Sensory remodeling /
+olfactory or visual systems"	Shared aquatic foundation	3	OMP, OR52W1, OR6B1	OMP#*, OR52W1#*, OR6B1#*	OMP|OMP#*|#8B0000|marine=0.345615697623917|aquatic=0.231144543648012|display=0.2883801206359645;OR52W1|OR52W1#*|#8B0000|marine=0.282799403614638|aquatic=0.190684677268266|display=0.236742040441452;OR6B1|OR6B1#*|#8B0000|marine=0.111781295712533|aquatic=0.1211331117984|display=0.1164572037554665	0.0	9	524.1264092199166	#9E9E9E
+sensory remodeling / olfactory or visual systems	"Sensory remodeling /
+olfactory or visual systems"	Marine-specific predictors	1	OR10G3	OR10G3	OR10G3|OR10G3|#8B0000|marine=0.0313624648344271|aquatic=0.0|display=0.0313624648344271	1.28	9	242.0	#4C78A8
+sensory remodeling / olfactory or visual systems	"Sensory remodeling /
+olfactory or visual systems"	Aquatic-specific predictors	2	CNGA4, PDE6C	CNGA4, PDE6C	CNGA4|CNGA4|#8B0000|marine=0.0|aquatic=0.0586555487526509|display=0.0586555487526509;PDE6C|PDE6C|#8B0000|marine=0.0|aquatic=0.0369091575908715|display=0.0369091575908715	2.65	9	366.70979697263294	#44A08D
+ion channels / mechanosensation / membrane signaling	"Ion channels / mechanosensation /
+membrane signaling"	Shared aquatic foundation	1	KCNK18	KCNK18#*	KCNK18|KCNK18#*|#8B0000|marine=0.43928773003255|aquatic=0.217561248206336|display=0.328424489119443	0.0	8	242.0	#9E9E9E
+ion channels / mechanosensation / membrane signaling	"Ion channels / mechanosensation /
+membrane signaling"	Marine-specific predictors	1	CALHM1	CALHM1#	CALHM1|CALHM1#|#8B0000|marine=0.145696679568621|aquatic=0.0|display=0.145696679568621	1.28	8	242.0	#4C78A8
+ion channels / mechanosensation / membrane signaling	"Ion channels / mechanosensation /
+membrane signaling"	Aquatic-specific predictors	4	CACNA1G, NOXO1, PI4KA, PIEZO1	CACNA1G*, NOXO1, PI4KA*, PIEZO1*	CACNA1G|CACNA1G*|#8B0000|marine=0.0|aquatic=0.593854706123962|display=0.593854706123962;NOXO1|NOXO1|#1F4E79|marine=0.0|aquatic=-0.0179148306739576|display=-0.0179148306739576;PI4KA|PI4KA*|#1F4E79|marine=0.0|aquatic=-0.161213914772254|display=-0.161213914772254;PIEZO1|PIEZO1*|#8B0000|marine=0.0|aquatic=0.100220575454654|display=0.100220575454654	2.65	8	707.427003125201	#44A08D
+sperm / cilia / CatSper / reproductive-cell function	"Sperm / cilia / CatSper /
+reproductive-cell function"	Shared aquatic foundation	2	CATSPERZ, TOGARAM2	CATSPERZ#*, TOGARAM2#	CATSPERZ|CATSPERZ#*|#1F4E79|marine=-0.264244206101874|aquatic=-0.154029925159516|display=-0.209137065630695;TOGARAM2|TOGARAM2#|#8B0000|marine=0.129304237042922|aquatic=0.03936598299555|display=0.08433511001923599	0.0	7	366.70979697263294	#9E9E9E
+sperm / cilia / CatSper / reproductive-cell function	"Sperm / cilia / CatSper /
+reproductive-cell function"	Marine-specific predictors	1	CATSPER4	CATSPER4	CATSPER4|CATSPER4|#1F4E79|marine=-0.0348617965707268|aquatic=0.0|display=-0.0348617965707268	1.28	7	242.0	#4C78A8
+sperm / cilia / CatSper / reproductive-cell function	"Sperm / cilia / CatSper /
+reproductive-cell function"	Aquatic-specific predictors	2	CATSPERG, DEUP1	CATSPERG*, DEUP1	CATSPERG|CATSPERG*|#1F4E79|marine=0.0|aquatic=-0.232264279338058|display=-0.232264279338058;DEUP1|DEUP1|#8B0000|marine=0.0|aquatic=0.0985919084118505|display=0.0985919084118505	2.65	7	366.70979697263294	#44A08D
+DNA repair / chromatin / genome maintenance	"DNA repair / chromatin /
+genome maintenance"	Shared aquatic foundation	0				0.0	6	0.0	#9E9E9E
+DNA repair / chromatin / genome maintenance	"DNA repair / chromatin /
+genome maintenance"	Marine-specific predictors	3	FANCM, POLG, TPX2	FANCM#, POLG#, TPX2#	FANCM|FANCM#|#1F4E79|marine=-0.215464965565117|aquatic=0.0|display=-0.215464965565117;POLG|POLG#|#1F4E79|marine=-0.124940186455302|aquatic=0.0|display=-0.124940186455302;TPX2|TPX2#|#1F4E79|marine=-0.547364151458345|aquatic=0.0|display=-0.547364151458345	1.28	6	524.1264092199166	#4C78A8
+DNA repair / chromatin / genome maintenance	"DNA repair / chromatin /
+genome maintenance"	Aquatic-specific predictors	4	ATF7IP2, CDC14B, KIF18A, LRIF1	ATF7IP2*, CDC14B, KIF18A*, LRIF1	ATF7IP2|ATF7IP2*|#1F4E79|marine=0.0|aquatic=-0.581769927151342|display=-0.581769927151342;CDC14B|CDC14B|#1F4E79|marine=0.0|aquatic=-0.0297700481634882|display=-0.0297700481634882;KIF18A|KIF18A*|#8B0000|marine=0.0|aquatic=0.340198342633948|display=0.340198342633948;LRIF1|LRIF1|#8B0000|marine=0.0|aquatic=0.0099754084269074|display=0.0099754084269074	2.65	6	707.427003125201	#44A08D
+Skeletal, muscle and extracellular-matrix remodeling	"Skeletal, muscle and
+extracellular-matrix remodeling"	Shared aquatic foundation	3	COL20A1, DBNL, SYDE1	COL20A1, DBNL#*, SYDE1#*	COL20A1|COL20A1|#8B0000|marine=0.0921292718400568|aquatic=0.0288024871662898|display=0.0604658795031733;DBNL|DBNL#*|#8B0000|marine=0.109704318050152|aquatic=0.116035395287358|display=0.112869856668755;SYDE1|SYDE1#*|#1F4E79|marine=-0.314258007626709|aquatic=-0.232023025562006|display=-0.2731405165943575	0.0	5	524.1264092199166	#9E9E9E
+Skeletal, muscle and extracellular-matrix remodeling	"Skeletal, muscle and
+extracellular-matrix remodeling"	Marine-specific predictors	3	ACP4, COL4A1, MYH13	ACP4#, COL4A1, MYH13#	ACP4|ACP4#|#8B0000|marine=0.36185377349003|aquatic=0.0|display=0.36185377349003;COL4A1|COL4A1|#1F4E79|marine=-0.0505715443318336|aquatic=0.0|display=-0.0505715443318336;MYH13|MYH13#|#8B0000|marine=0.480299625271563|aquatic=0.0|display=0.480299625271563	1.28	5	524.1264092199166	#4C78A8
+Skeletal, muscle and extracellular-matrix remodeling	"Skeletal, muscle and
+extracellular-matrix remodeling"	Aquatic-specific predictors	1	RHOA	RHOA	RHOA|RHOA|#1F4E79|marine=0.0|aquatic=-0.0011344887901252|display=-0.0011344887901252	2.65	5	242.0	#44A08D
+metabolism / mitochondrial / redox regulation	"Metabolism / mitochondrial /
+redox regulation"	Shared aquatic foundation	1	FN3K	FN3K#*	FN3K|FN3K#*|#1F4E79|marine=-0.217860441354345|aquatic=-0.244837253974046|display=-0.2313488476641955	0.0	4	242.0	#9E9E9E
+metabolism / mitochondrial / redox regulation	"Metabolism / mitochondrial /
+redox regulation"	Marine-specific predictors	1	IDUA	IDUA	IDUA|IDUA|#1F4E79|marine=-0.0503352858652507|aquatic=0.0|display=-0.0503352858652507	1.28	4	242.0	#4C78A8
+metabolism / mitochondrial / redox regulation	"Metabolism / mitochondrial /
+redox regulation"	Aquatic-specific predictors	3	GGTLC1, HPRT1, PFKP	GGTLC1*, HPRT1, PFKP*	GGTLC1|GGTLC1*|#1F4E79|marine=0.0|aquatic=-0.291163814888646|display=-0.291163814888646;HPRT1|HPRT1|#1F4E79|marine=0.0|aquatic=-0.099597493197772|display=-0.099597493197772;PFKP|PFKP*|#1F4E79|marine=0.0|aquatic=-0.356881027792284|display=-0.356881027792284	2.65	4	524.1264092199166	#44A08D
+fatty-acid / lipid metabolism	"Fatty-acid / lipid
+metabolism"	Shared aquatic foundation	0				0.0	3	0.0	#9E9E9E
+fatty-acid / lipid metabolism	"Fatty-acid / lipid
+metabolism"	Marine-specific predictors	1	CREB3L3	CREB3L3#	CREB3L3|CREB3L3#|#1F4E79|marine=-0.150758430810258|aquatic=0.0|display=-0.150758430810258	1.28	3	242.0	#4C78A8
+fatty-acid / lipid metabolism	"Fatty-acid / lipid
+metabolism"	Aquatic-specific predictors	0				2.65	3	0.0	#44A08D
+endocrine / reproductive hormone systems	"Endocrine / reproductive
+hormone systems"	Shared aquatic foundation	0				0.0	2	0.0	#9E9E9E
+endocrine / reproductive hormone systems	"Endocrine / reproductive
+hormone systems"	Marine-specific predictors	1	CYP21A2	CYP21A2	CYP21A2|CYP21A2|#1F4E79|marine=-0.0450852911002748|aquatic=0.0|display=-0.0450852911002748	1.28	2	242.0	#4C78A8
+endocrine / reproductive hormone systems	"Endocrine / reproductive
+hormone systems"	Aquatic-specific predictors	1	SLC5A5	SLC5A5*	SLC5A5|SLC5A5*|#1F4E79|marine=0.0|aquatic=-0.231105741131879|display=-0.231105741131879	2.65	2	242.0	#44A08D
+transcriptional / systemic regulatory genes	"Transcriptional / systemic
+regulatory genes"	Shared aquatic foundation	3	NUBP2, PUSL1, SOX7	NUBP2*, PUSL1#*, SOX7	NUBP2|NUBP2*|#1F4E79|marine=-0.0844817154354269|aquatic=-0.239999172123246|display=-0.16224044377933644;PUSL1|PUSL1#*|#1F4E79|marine=-0.270477624990477|aquatic=-0.314220898750119|display=-0.29234926187029797;SOX7|SOX7|#1F4E79|marine=-0.0651622513698966|aquatic=-0.0288474092932838|display=-0.047004830331590204	0.0	1	524.1264092199166	#9E9E9E
+transcriptional / systemic regulatory genes	"Transcriptional / systemic
+regulatory genes"	Marine-specific predictors	4	APH1B, FAM234A, HOXD10, VEPH1	APH1B#, FAM234A#, HOXD10#, VEPH1#	APH1B|APH1B#|#1F4E79|marine=-0.152260877432123|aquatic=0.0|display=-0.152260877432123;FAM234A|FAM234A#|#1F4E79|marine=-0.108556846491888|aquatic=0.0|display=-0.108556846491888;HOXD10|HOXD10#|#8B0000|marine=0.28020716230031|aquatic=0.0|display=0.28020716230031;VEPH1|VEPH1#|#1F4E79|marine=-0.163677799839901|aquatic=0.0|display=-0.163677799839901	1.28	1	707.427003125201	#4C78A8
+transcriptional / systemic regulatory genes	"Transcriptional / systemic
+regulatory genes"	Aquatic-specific predictors	11	C16orf91, FAM20B, KEAP1, NWD1, PMIS2, RAC3, SMCO3, SYTL5, TIGD7, TTC28, URI1	C16orf91*, FAM20B*, KEAP1*, NWD1*, PMIS2*, RAC3, SMCO3*, SYTL5*, TIGD7*, TTC28*, URI1	C16orf91|C16orf91*|#1F4E79|marine=0.0|aquatic=-0.262195862787636|display=-0.262195862787636;FAM20B|FAM20B*|#1F4E79|marine=0.0|aquatic=-0.149046125022571|display=-0.149046125022571;KEAP1|KEAP1*|#1F4E79|marine=0.0|aquatic=-0.19883739251004|display=-0.19883739251004;NWD1|NWD1*|#8B0000|marine=0.0|aquatic=0.404558879261438|display=0.404558879261438;PMIS2|PMIS2*|#1F4E79|marine=0.0|aquatic=-0.39072525213697|display=-0.39072525213697;RAC3|RAC3|#1F4E79|marine=0.0|aquatic=-0.0814970345799135|display=-0.0814970345799135;SMCO3|SMCO3*|#1F4E79|marine=0.0|aquatic=-0.307082295991399|display=-0.307082295991399;SYTL5|SYTL5*|#8B0000|marine=0.0|aquatic=0.265993756746688|display=0.265993756746688;TIGD7|TIGD7*|#1F4E79|marine=0.0|aquatic=-0.153350666144971|display=-0.153350666144971;TTC28|TTC28*|#1F4E79|marine=0.0|aquatic=-0.237914556985983|display=-0.237914556985983;URI1|URI1|#1F4E79|marine=0.0|aquatic=-0.078475489653661|display=-0.078475489653661	2.65	1	2499.9783730728655	#44A08D

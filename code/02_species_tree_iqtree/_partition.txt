@@ -1,0 +1,6 @@
+#nexus
+begin sets;
+  charset gene1codon1 = 1 - seq_length \3  2 - seq_length \3;
+  charset gene1codon2 = 3 - seq_length \3;
+end;
+

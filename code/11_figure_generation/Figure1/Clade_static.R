@@ -1,0 +1,5 @@
+info <- read.delim("mammal_clades_info.txt")
+data.frame(table(info$Class))
+data.frame(table(info$SubClass))
+data.frame(table(info$Superorder_Order))
+data.frame(table(info$Family_order))

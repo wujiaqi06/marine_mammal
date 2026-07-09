@@ -1,0 +1,47 @@
+# Local outputs and temporary files
+.DS_Store
+__pycache__/
+*.py[cod]
+.Rproj.user/
+.Rhistory
+.RData
+*.rds
+*.RDS
+tmp/
+cache/
+outputs/
+local_outputs/
+reproduction_outputs/
+
+# Large data should be obtained from Dryad, not committed to GitHub
+*.bam
+*.sam
+*.fastq
+*.fq
+*.fa
+*.fasta
+*.phy
+*.nex
+*.treefile
+*.log
+*.tmp
+*.tar.gz
+*.zip
+*.7z
+*.gz
+*.csv.gz
+*.tsv.gz
+*.bz2
+*.xz
+*.pdf
+!docs/*.pdf
+
+# Private review/submission material must never be committed
+.env
+secrets*
+private*
+reviewer*
+cover_letter*
+suggested_reviewers*
+old_submission*
+rejection*

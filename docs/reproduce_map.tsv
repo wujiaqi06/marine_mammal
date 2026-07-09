@@ -1,0 +1,45 @@
+item	expected_value	figure_or_table	source_file_or_table	notes
+final_species_total	302	Trait framework / Table S1	trait_table.mammal302.active_TY_NK_final_18pt.tsv	endpoint-fix species table
+marine_species	51	Trait framework / Table S1	trait table	marine positives
+non_marine_aquatic_species	12	Trait framework / Table S1	trait table	non-marine aquatic category
+semi_aquatic_species	13	Trait framework / Table S1	trait table	semi-aquatic category
+terrestrial_background_species	226	Trait framework / Table S1	trait table	terrestrial/background category
+endpointfix_GBI_matrix_shape	17,432 genes x 601 branches	GBI construction	endpointfix_no_fuse_GBI_shape_summary.tsv	large matrix manifest
+marine_tested_genes	17,258	Fig. 3 / Table S2	screening_summary.tsv; marine_binary.t_test.n17258.txt	Welch branch-level screen
+marine_FDR_genes	1,559	Fig. 3 / Table S2	screening_summary.tsv; marine_binary.mammal.FDR0.01.n1559.t_test.txt	FDR<=0.01
+marine_slow_genes	1,366	Fig. 3 / Table S2	screening_summary.tsv	slow direction
+marine_fast_genes	193	Fig. 3 / Table S2	screening_summary.tsv	fast direction
+aquatic_tested_genes	17,298	Fig. S2 / Table S2	screening_summary.tsv; aquatic_v2.t_test.n17298.txt	Welch branch-level screen
+aquatic_FDR_genes	1,227	Fig. S2 / Table S2	screening_summary.tsv; aquatic_v2.mammal.FDR0.01.n1227.t_test.txt	FDR<=0.01
+aquatic_slow_genes	1,055	Fig. S2 / Table S2	screening_summary.tsv	slow direction
+aquatic_fast_genes	172	Fig. S2 / Table S2	screening_summary.tsv	fast direction
+marine_nested_AUC	0.936	Fig. 2 / Fig. 5A	Figure2_nested_ttest_plot_summary.tsv; Figure5A_nested_sensitivity_table.tsv	nested supervised feature-selection gLOOCV
+aquatic_nested_AUC	0.826	Fig. 2 / Fig. 5A	Figure2_nested_ttest_plot_summary.tsv; Figure5A_nested_sensitivity_table.tsv	nested supervised feature-selection gLOOCV
+Fig4_full_data_marine_predictors	71	Fig. 4 / Table S5	Figure4A_plot_table.tsv; corrected full-data fit summary	corrected full-data LASSO architecture
+Fig4_full_data_aquatic_predictors	101	Fig. 4 / Table S5	Figure4A_plot_table.tsv; corrected full-data fit summary	corrected full-data LASSO architecture
+Fig4_shared_predictors	24	Fig. 4 / Table S5	Figure4A_plot_table.tsv	genes selected by both full-data models
+Fig4_marine_specific_predictors	47	Fig. 4 / Table S5	Figure4A_plot_table.tsv	marine-only full-data predictors
+Fig4_aquatic_specific_predictors	77	Fig. 4 / Table S5	Figure4A_plot_table.tsv	aquatic-only full-data predictors
+Fig4_union_predictors	148	Fig. 4 / Table S5	Figure4A_plot_table.tsv; Table S5	predictor union
+Fig4C_module_assigned_predictors	118	Fig. 4C / Table S5	Figure4C_plot_table.tsv; Table S5	module-assigned subset
+Fig5A_drop_cetaceans_AUC	0.785	Fig. 5A	Figure5A_nested_sensitivity_table.tsv	nested supervised feature-selection sensitivity
+Fig5A_cetacea_only_AUC	0.979	Fig. 5A	Figure5A_nested_sensitivity_table.tsv	nested supervised feature-selection sensitivity
+Fig5A_pinnipedia_only_AUC	0.728	Fig. 5A	Figure5A_nested_sensitivity_table.tsv	nested supervised feature-selection sensitivity
+Fig5A_aquatic_no_Cetacea_AUC	0.780	Fig. 5A	Figure5A_nested_sensitivity_table.tsv	nested supervised feature-selection sensitivity
+Fig5A_aquatic_no_Pinnipedia_AUC	0.916	Fig. 5A	Figure5A_nested_sensitivity_table.tsv	nested supervised feature-selection sensitivity
+Fig5A_aquatic_no_marine_edge_AUC	0.865	Fig. 5A	Figure5A_nested_sensitivity_table.tsv	nested supervised feature-selection sensitivity
+Fig5B_drop_cetacean_FDR_genes	894	Fig. 5B	Figure5B_endpointfix_source_check.tsv	positive-count-matched permutation control
+Fig5B_drop_cetacean_slow	876	Fig. 5B	Figure5B_endpointfix_source_check.tsv	slow direction
+Fig5B_drop_cetacean_fast	18	Fig. 5B	Figure5B_endpointfix_source_check.tsv	fast direction
+Fig5B_drop_cetacean_slow_proportion	98.0%	Fig. 5B	Figure5B_endpointfix_source_check.tsv	rounded public value
+Fig5B_positive_count_permutations	200	Fig. 5B	Figure5B_endpointfix_source_check.tsv	n permutations
+Fig5B_terminal_labels	17 positives / 251 negatives	Fig. 5B	Figure5B_endpointfix_source_check.tsv	matched terminal labels
+Fig5B_p_count	0.005	Fig. 5B	Figure5B_endpointfix_source_check.tsv	public rounded p-value
+Fig5B_p_slow	0.010	Fig. 5B	Figure5B_endpointfix_source_check.tsv	public rounded p-value
+baseline_slow_overlap_shared_slow	983	Supplementary Table S4	baseline_slow_gene_layer_overlap_summary.tsv	slow genes significant in both layers
+baseline_slow_overlap_marine_recovered_by_aquatic	72.0%	Supplementary Table S4	baseline_slow_gene_layer_overlap_summary.tsv	1366 marine-slow genes denominator
+baseline_slow_overlap_aquatic_recovered_by_marine	93.2%	Supplementary Table S4	baseline_slow_gene_layer_overlap_summary.tsv	1055 aquatic-slow genes denominator
+baseline_significant_overlap_direction_concordant	1,138	Supplementary Table S4	baseline_slow_gene_layer_overlap_summary.tsv	all shared FDR genes concordant in direction
+Fig5C_turnover_permutations	10,000	Fig. 5C / Table S6	Figure5C_module_null_summary_2col.tsv	candidate-gene null permutations
+foldwise_ASR_marine_AUC	0.936 vs 0.936	Supplementary Table S6	foldwise_ASR_vs_frozen_ASR_AUC_summary.tsv	frozen-ASR vs fold-wise ASR sensitivity
+foldwise_ASR_aquatic_AUC	0.826 vs 0.823	Supplementary Table S6	foldwise_ASR_vs_frozen_ASR_AUC_summary.tsv	frozen-ASR vs fold-wise ASR sensitivity

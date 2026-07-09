@@ -1,0 +1,37 @@
+display_module	lasso_group	n_total_genes_in_cell	n_high_confidence	n_medium_confidence	n_low_confidence	n_coef_gt_0_1_marine	n_coef_gt_0_1_aquatic	n_representative_genes_displayed	representative_genes	all_genes_in_cell	notes
+Epithelial / body-surface interface	shared	4	4	0	0	3	2	4	TGM3;SDR9C7;KRTDAP;TGM1	TGM3;SDR9C7;KRTDAP;TGM1	
+Epithelial / body-surface interface	marine-specific	4	3	1	0	3	0	4	KRT17;ALOX12B;TGM5;CAPN14	KRT17;ALOX12B;TGM5;CAPN14	
+Epithelial / body-surface interface	aquatic-specific	3	0	3	0	0	1	3	PRSS53;SPINT4;CDHR4	PRSS53;SPINT4;CDHR4	
+Vascular / hematologic regulation	shared	3	2	1	0	3	1	3	EPOR;CD34;HGFAC	EPOR;CD34;HGFAC	
+Vascular / hematologic regulation	marine-specific	4	3	1	0	2	0	4	F11;KEL;PECAM1;HIGD1B	F11;KEL;PECAM1;HIGD1B	
+Vascular / hematologic regulation	aquatic-specific	2	2	0	0	0	1	2	PDGFB;ITGA2B	PDGFB;ITGA2B	
+Immune / inflammatory regulation	shared	1	1	0	0	1	1	1	IL33	IL33	
+Immune / inflammatory regulation	marine-specific	2	2	0	0	1	0	2	IL36G;TREM2	IL36G;TREM2	
+Immune / inflammatory regulation	aquatic-specific	5	3	2	0	0	4	4	SIGIRR;XCR1;MEFV;NLRP8	SIGIRR;XCR1;MEFV;NLRP8;CSMD1	Representative genes truncated from 5 to 4 for display readability.
+Sensory systems	shared	3	3	0	0	3	3	3	OMP;OR52W1;OR6B1	OMP;OR52W1;OR6B1	
+Sensory systems	marine-specific	3	2	1	0	0	0	3	RDH12;OR10G3;STMN4	RDH12;OR10G3;STMN4	
+Sensory systems	aquatic-specific	2	2	0	0	0	0	2	CNGA4;PDE6C	CNGA4;PDE6C	
+Ion channels / mechanosensation / membrane signaling	shared	1	1	0	0	1	1	1	KCNK18	KCNK18	
+Ion channels / mechanosensation / membrane signaling	marine-specific	1	1	0	0	1	0	1	CALHM1	CALHM1	
+Ion channels / mechanosensation / membrane signaling	aquatic-specific	3	3	0	0	0	3	3	CACNA1G;PI4KA;PIEZO1	CACNA1G;PI4KA;PIEZO1	
+Cilia / flagella / reproductive-cell function	shared	3	1	2	0	3	2	3	CATSPERZ;WDR93;TOGARAM2	CATSPERZ;WDR93;TOGARAM2	
+Cilia / flagella / reproductive-cell function	marine-specific	1	1	0	0	0	0	1	CATSPER4	CATSPER4	
+Cilia / flagella / reproductive-cell function	aquatic-specific	3	3	0	0	0	2	3	CATSPERG;SPEF2;DEUP1	CATSPERG;SPEF2;DEUP1	
+DNA repair / chromatin / cell-cycle	shared	0	0	0	0	0	0	0			
+DNA repair / chromatin / cell-cycle	marine-specific	5	4	1	0	3	0	4	TPX2;FANCM;POLG;ASH2L	TPX2;FANCM;POLG;ASH2L;TRIM66	Representative genes truncated from 5 to 4 for display readability.
+DNA repair / chromatin / cell-cycle	aquatic-specific	7	4	3	0	0	4	5	KIF18A;H1_8;CDC14B;LRIF1;C1orf112	KIF18A;H1_8;CDC14B;LRIF1;ATF7IP2;C1orf112;COMMD4	Representative genes truncated from 7 to 5 for display readability.
+Cytoskeletal / muscle / ECM / adhesion	shared	3	2	1	0	2	2	3	DBNL;COL20A1;SYDE1	DBNL;COL20A1;SYDE1	
+Cytoskeletal / muscle / ECM / adhesion	marine-specific	4	3	1	0	3	0	4	MYH13;MYH7B;COL4A1;ACP4	MYH13;MYH7B;COL4A1;ACP4	
+Cytoskeletal / muscle / ECM / adhesion	aquatic-specific	7	5	2	0	0	4	4	SYNPO2;CLASP2;MSN;SORBS2	SYNPO2;CLASP2;MSN;SORBS2;RHOA;CORO2A;SEPTIN5	Representative genes truncated from 7 to 4 for display readability.
+Metabolism / redox / lipid handling	shared	4	2	2	0	3	4	4	FN3K;PNPLA7;PUSL1;NUBP2	FN3K;PNPLA7;PUSL1;NUBP2	
+Metabolism / redox / lipid handling	marine-specific	2	2	0	0	0	0	2	IDUA;DCXR	IDUA;DCXR	
+Metabolism / redox / lipid handling	aquatic-specific	12	9	3	0	0	6	5	PFKP;ACADSB;EHHADH;ACOX3;HPRT1	PFKP;ACADSB;EHHADH;ACOX3;HPRT1;ARSA;KMO;PDK1;PPP1R3A;GGTLC1;ABHD8;GGTLC3	Representative genes truncated from 12 to 5 for display readability.
+Transport / endocytic / epithelial solute handling	shared	0	0	0	0	0	0	0			
+Transport / endocytic / epithelial solute handling	marine-specific	2	1	1	0	1	0	2	SLC28A1;SLC2A7	SLC28A1;SLC2A7	
+Transport / endocytic / epithelial solute handling	aquatic-specific	4	4	0	0	0	4	4	LRP2;SLC6A15;SLC5A5;SLC6A6	LRP2;SLC6A15;SLC5A5;SLC6A6	
+Endocrine / circadian / systemic regulation	shared	0	0	0	0	0	0	0			
+Endocrine / circadian / systemic regulation	marine-specific	3	3	0	0	2	0	3	CREB3L3;SSTR4;CYP21A2	CREB3L3;SSTR4;CYP21A2	
+Endocrine / circadian / systemic regulation	aquatic-specific	3	3	0	0	0	2	3	PER1;GCKR;CASTOR1	PER1;GCKR;CASTOR1	
+Developmental / transcriptional signaling regulators	shared	1	1	0	0	0	0	1	SOX7	SOX7	
+Developmental / transcriptional signaling regulators	marine-specific	4	2	2	0	2	0	4	HOXD10;ACVR1;VEPH1;NR2C2AP	HOXD10;ACVR1;VEPH1;NR2C2AP	
+Developmental / transcriptional signaling regulators	aquatic-specific	9	4	5	0	0	5	5	KEAP1;FZD5;RAC3;BAMBI;NWD1	KEAP1;FZD5;RAC3;BAMBI;NWD1;FAM13A;FAM20B;URI1;FLYWCH1	Representative genes truncated from 9 to 5 for display readability.
