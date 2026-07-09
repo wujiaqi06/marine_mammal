@@ -1,16 +1,18 @@
 # Release QC report for v1.0-endpoint-fix
 
-Generated: 2026-07-09 11:05:52 JST
+Generated: 2026-07-09 13:08:12 JST
 
 ## Summary
 
-- Private Dryad reviewer URL: not present.
+- GitHub code is public and tagged as `v1.0-endpoint-fix`.
+- Dryad DOI is reserved; Dryad public release remains pending manuscript publication, with reviewer access through the private Dryad link in the manuscript.
+- Private Dryad reviewer URL: not present in GitHub.
 - Local absolute `/Users/...` paths: not present outside this QC report.
 - Files larger than 100 MB outside `.git`: none.
 - Core nested gLOOCV, corrected LASSO, fold-wise ASR sensitivity and figure-generation scripts are included under `code/` with path roots controlled by environment variables or local config.
-- Non-portable provenance scripts with local paths were excluded from the GitHub release; `provenance_scripts/nonportable_script_manifest.tsv` records the excluded provenance-only scripts.
+- Non-portable provenance scripts with local paths are excluded from the GitHub release; `provenance_scripts/nonportable_script_manifest.tsv` records them.
 - Smoke tests: source-data presence PASS; endpoint-fix value check PASS; forbidden legacy-value check PASS.
-- Remaining grep hits are false positives from biological terms (`secretion`, `secreted`), code variable names (`token`) or `.gitignore` safety patterns.
+- Remaining safety-grep hits are false positives from biological terms (`secretion`, `secreted`), code variable names (`token`) or `.gitignore` safety patterns.
 
 ## Required private/safety grep
 
@@ -75,6 +77,19 @@ Output / interpretation:
 
 Interpretation: no private links, credentials, correspondence, AI chat logs or submission/rejection documents were detected. Hits shown above are false positives caused by biological words containing `secret`, code token-classification variable names, the CRAN package `tokenizers`, or `.gitignore` deny-list patterns.
 
+## GitHub code-release wording check
+
+Command:
+```bash
+rg -n "Planned GitHub|planned GitHub|planned.*tag|to be created|code release.*pending|GitHub.*pending" README.md docs || true
+```
+
+Output:
+```text
+```
+
+Interpretation: PASS; no wording remains that describes the GitHub code release/tag as only planned or pending.
+
 ## Local absolute path check
 
 Command:
@@ -127,198 +142,10 @@ Interpretation: PASS. Locale warnings from R are environment warnings only.
 ## Git status before commit
 
 ```text
-A  .gitignore
-A  CITATION.cff
-A  LICENSE
-A  README.md
-A  code/01_alignment_QC/Alignment_length.pl
-A  code/01_alignment_QC/CodonAlign.pl
-A  code/01_alignment_QC/Concatenate.pl
-A  code/01_alignment_QC/CopyFile.pl
-A  code/01_alignment_QC/FragmentCount.pl
-A  code/01_alignment_QC/FragmentScreen.pl
-A  code/01_alignment_QC/MissingSeqCountOnly.pl
-A  code/01_alignment_QC/MoveFasta.pl
-A  code/01_alignment_QC/MoveFile.pl
-A  code/01_alignment_QC/PickUpGenes.pl
-A  code/01_alignment_QC/QC_compare/after_QC/A1BG.afterQC.species.txt
-A  code/01_alignment_QC/QC_compare/before_QC/A1BG.beforeQC.species.txt
-A  code/01_alignment_QC/README.md
-A  code/01_alignment_QC/RandomSamplingSites.pl
-A  code/01_alignment_QC/RandomSamplingSites_codon.pl
-A  code/01_alignment_QC/RemoveEmptySequences.pl
-A  code/01_alignment_QC/RemoveFragmentSeq_cds.pl
-A  code/01_alignment_QC/RemoveGap_cds.pl
-A  code/01_alignment_QC/RemoveGap_cds_length.pl
-A  code/01_alignment_QC/RemoveSmallFrag.pl
-A  code/01_alignment_QC/SeparateData.pl
-A  code/01_alignment_QC/Standard.txt
-A  code/01_alignment_QC/Translate.pl
-A  code/01_alignment_QC/change_gene_species_names.pl
-A  code/01_alignment_QC/hg38.option.sh
-A  code/01_alignment_QC/option.sh
-A  code/01b_species_missing_gene_QC/6366Genes.txt
-A  code/01b_species_missing_gene_QC/Alignment_length.pl
-A  code/01b_species_missing_gene_QC/CopyFasta.pl
-A  code/01b_species_missing_gene_QC/Data.R
-A  code/01b_species_missing_gene_QC/Fasta2phylic.pl
-A  code/01b_species_missing_gene_QC/MissingGene40.txt
-A  code/01b_species_missing_gene_QC/MissingSeqCountOnly.pl
-A  code/01b_species_missing_gene_QC/MoveFasta.pl
-A  code/01b_species_missing_gene_QC/PickUpGenes.pl
-A  code/01b_species_missing_gene_QC/ScreeningData.R
-A  code/01b_species_missing_gene_QC/SeparateData.pl
-A  code/01b_species_missing_gene_QC/SeparateData_phy.pl
-A  code/01b_species_missing_gene_QC/Sequence_Info.txt
-A  code/01b_species_missing_gene_QC/Species_sum.pl
-A  code/01b_species_missing_gene_QC/allGenes17434.txt
-A  code/01b_species_missing_gene_QC/all_tree.2249.success.txt
-A  code/01b_species_missing_gene_QC/failed.623.txt
-A  code/01b_species_missing_gene_QC/failed137.txt
-A  code/01b_species_missing_gene_QC/failed26.length.txt
-A  code/01b_species_missing_gene_QC/failed26.list.txt
-A  code/01b_species_missing_gene_QC/gene_qcPass.singleCopy.2275.geneList.txt
-A  code/01b_species_missing_gene_QC/hg38_species_name_cleaned.all_species.txt
-A  code/01b_species_missing_gene_QC/hg38_species_name_cleaned.length.txt
-A  code/01b_species_missing_gene_QC/mammal302.noMissing.geneList.476.txt
-A  code/01b_species_missing_gene_QC/mammal302.noMissing_singleCopy.176.geneList.txt
-A  code/01b_species_missing_gene_QC/mammal377.MissingCount.txt
-A  code/01b_species_missing_gene_QC/mammal377.MissingInfo.txt
-A  code/01b_species_missing_gene_QC/mammal377.SpeciesMissingCount.txt
-A  code/01b_species_missing_gene_QC/mammal377.gene_qcPass.singleCopy.2310.geneList.txt
-A  code/01b_species_missing_gene_QC/mammal377.species.txt
-A  code/01b_species_missing_gene_QC/seq_length.txt
-A  code/01b_species_missing_gene_QC/species.txt
-A  code/01b_species_missing_gene_QC/species301.MissingCount.txt
-A  code/01b_species_missing_gene_QC/species301.MissingInfo.txt
-A  code/01b_species_missing_gene_QC/species301.SpeciesMissingCount.txt
-A  code/01b_species_missing_gene_QC/species301.txt
-A  code/01b_species_missing_gene_QC/species302.MissingCount.txt
-A  code/01b_species_missing_gene_QC/species302.MissingInfo.txt
-A  code/01b_species_missing_gene_QC/species302.SpeciesMissingCount.txt
-A  code/01b_species_missing_gene_QC/species_keep302.txt
-A  code/02_species_tree_iqtree/_partition.txt
-A  code/02_species_tree_iqtree/autoIQTree_nofolder.pl
-A  code/02_species_tree_iqtree/loop_run_iqtree.pl
-A  code/02_species_tree_iqtree/seq_length.txt
-A  code/03_paml_baseml_fixed_topology/AutoBaseML_phy.pl
-A  code/03_paml_baseml_fixed_topology/ExtractBaseMLResults2.pl
-A  code/03_paml_baseml_fixed_topology/Fasta2phylip.pl
-A  code/03_paml_baseml_fixed_topology/SubTree.R
-A  code/03_paml_baseml_fixed_topology/_baseml.ctl
-A  code/04_SplitAligner/CITATION.cff
-A  code/04_SplitAligner/LICENSE
-A  code/04_SplitAligner/README.md
-A  code/04_SplitAligner/SplitAligner.pl
-A  code/04_SplitAligner/scripts/classify_fix_missingness.pl
-A  code/04_SplitAligner/scripts/confirm_na_structure.pl
-A  code/04_SplitAligner/scripts/extract_na_fuse.pl
-A  code/04_SplitAligner/scripts/generate_branch_matrix.pl
-A  code/04_SplitAligner/scripts/label_species_tree.pl
-A  code/04_SplitAligner/scripts/split_branch_label.pl
-A  code/04_SplitAligner/scripts/tree_to_splits.pl
-A  code/05_GBI_construction/build_endpointfix_gbi_matrix.R
-A  code/06_global_single_gene_screen/build_stage1_ttest_qc.R
-A  code/06_global_single_gene_screen/marine_functions.R
-A  code/06_global_single_gene_screen/run_ttest_screening.R
-A  code/06b_deterministic_ASR_labels/build_stage1_deterministic_ttest_qc.R
-A  code/06b_deterministic_ASR_labels/deterministic_asr_precheck.R
-A  code/06b_deterministic_ASR_labels/marine_functions.R
-A  code/06b_deterministic_ASR_labels/plot_stage1_ancestral_states.R
-A  code/06b_deterministic_ASR_labels/run_ttest_screening.R
-A  code/06c_positive_count_permutation_control/run_endpointfix_drop_whale_permutation_control.R
-A  code/11_figure_generation/Figure1/Clade_static.R
-A  code/11_figure_generation/Figure1/Figure1_ggplot.R
-A  code/11_figure_generation/Figure1/ggtree_example.R
-A  code/11_figure_generation/Figure3/make_Figure3A_endpointfix_volcano.R
-A  code/11_figure_generation/Figure3/make_Figure3B_endpointfix_asymmetry.R
-A  code/11_figure_generation/Figure3/make_Figure3C_endpointfix_human_phenotype.R
-A  code/11_figure_generation/Figure3/make_Figure3_endpointfix.R
-A  code/11_figure_generation/Figure4/assemble_Figure4_corrected_old_design.py
-A  code/11_figure_generation/Figure4/make_Figure4B_coefficient_architecture_corrected.py
-A  code/11_figure_generation/Figure4/make_Figure4C_artwork_draft_from_display_tables.py
-A  code/11_figure_generation/Figure4/make_Figure4C_module_partition_corrected.py
-A  code/11_figure_generation/Figure4/prepare_Figure4C_display_tables_final.py
-A  code/11_figure_generation/Figure4/prepare_Figure4C_display_tables_from_pro_annotations.py
-A  code/11_figure_generation/FigureS1/run_aquatic_5d_pca.R
-A  code/11_figure_generation/FigureS2/make_FigureS2A_endpointfix_aquatic_volcano.R
-A  code/11_figure_generation/FigureS2/make_FigureS2B_endpointfix_aquatic_asymmetry.R
-A  code/11_figure_generation/FigureS2/make_FigureS2C_endpointfix_aquatic_human_phenotype.R
-A  config/example_paths.yaml
-A  data/README.md
-A  data_manifest/Dryad_large_data_manifest.tsv
-A  data_manifest/external_data_sources.tsv
-A  data_manifest/source_data_manifest.tsv
-A  docs/data_code_availability_draft.md
-A  docs/dryad_manifest.md
-A  docs/expected_outputs.md
-A  docs/known_limitations.md
-A  docs/public_release_cleanup_report.tsv
-AM docs/release_QC_report.md
-A  docs/release_plan.md
-A  docs/reproduce_map.tsv
-A  docs/reproduction_guide.md
-A  docs/workflow_overview.md
-A  env/README_environment_captures.md
-A  env/R_package_version_summary.tsv
-A  env/R_sessionInfo.txt
-A  env/R_sessionInfo_current_local.txt
-A  env/python_pip_freeze.txt
-A  metadata/branch_label_mapping/README_branch_label_mapping.md
-A  metadata/branch_label_mapping/endpointfix_branch_label_crosswalk_new_to_old.tsv
-A  metadata/branch_label_mapping/endpointfix_branch_label_crosswalk_old_to_new.tsv
-A  metadata/branch_label_mapping/endpointfix_branch_label_crosswalk_summary.tsv
-A  metadata/branch_label_mapping/endpointfix_new_branch_split_keys.tsv
-A  metadata/branch_label_mapping/endpointfix_old_branch_split_keys.tsv
-A  provenance_scripts/README.md
-A  provenance_scripts/nonportable_script_manifest.tsv
-A  reproduce_map.tsv
-A  scripts/README.md
-A  session_info.txt
-A  source_data/Baseline_slow_gene_layer_overlap/Supplementary_Table_S4_baseline_slow_gene_layer_overlap.tsv
-A  source_data/Baseline_slow_gene_layer_overlap/slow_gene_direction_crosstab.tsv
-A  source_data/Baseline_slow_gene_layer_overlap/slow_gene_overlap_partitions.tsv
-A  source_data/Baseline_slow_gene_layer_overlap/slow_gene_set_counts.tsv
-A  source_data/Fig1_trait_framework/Figure1C_score_clade_counts.tsv
-A  source_data/Fig1_trait_framework/trait_table.mammal302.active_TY_NK_final_18pt.tsv
-A  source_data/Fig2_nested_gLOOCV/Figure2B_nested_ttest_ROC_data.tsv
-A  source_data/Fig2_nested_gLOOCV/Figure2C_nested_ttest_OOF_distribution_data.tsv
-A  source_data/Fig2_nested_gLOOCV/Figure2_nested_ttest_plot_summary.tsv
-A  source_data/Fig3_marine_single_gene_screen/endpointfix_Fig3A_screening_plot_table.tsv
-A  source_data/Fig3_marine_single_gene_screen/endpointfix_Fig3B_directional_asymmetry_summary.tsv
-A  source_data/Fig3_marine_single_gene_screen/endpointfix_Fig3C_enrichment_terms_for_plot.tsv
-A  source_data/Fig4_corrected_full_data_architecture/Figure4A_plot_table.tsv
-A  source_data/Fig4_corrected_full_data_architecture/Figure4B_plot_table.tsv
-A  source_data/Fig4_corrected_full_data_architecture/Figure4C_TableS5_annotation_table_final.tsv
-A  source_data/Fig4_corrected_full_data_architecture/Figure4C_main_display_cell_summary_final.tsv
-A  source_data/Fig4_corrected_full_data_architecture/Figure4C_plot_table.tsv
-A  source_data/Fig5_sensitivity_permutation_turnover/Figure5A_nested_sensitivity_plotdata.tsv
-A  source_data/Fig5_sensitivity_permutation_turnover/Figure5A_nested_sensitivity_table.tsv
-A  source_data/Fig5_sensitivity_permutation_turnover/Figure5B_endpointfix_positive_count_permutation_plotdata.tsv
-A  source_data/Fig5_sensitivity_permutation_turnover/Figure5B_endpointfix_source_check.tsv
-A  source_data/Fig5_sensitivity_permutation_turnover/Figure5C_cross_layer_comparison_supplementary.tsv
-A  source_data/Fig5_sensitivity_permutation_turnover/Figure5C_module_null_summary_2col.tsv
-A  source_data/Fig5_sensitivity_permutation_turnover/Figure5C_predictor_turnover_metrics_2col.tsv
-A  source_data/FigS1_aquaticity_PCA/FigureS1_PCA_plot_tables.tsv
-A  source_data/FigS1_aquaticity_PCA/FigureS1_PCA_summary.txt
-A  source_data/FigS1_aquaticity_PCA/aquaticity_5d_scores.mammal302.slim_TY_NK_final_18pt.tsv
-A  source_data/FigS2_aquatic_single_gene_screen/endpointfix_FigS2A_aquatic_screening_plot_table.tsv
-A  source_data/FigS2_aquatic_single_gene_screen/endpointfix_FigS2B_aquatic_asymmetry_summary.tsv
-A  source_data/FigS2_aquatic_single_gene_screen/endpointfix_FigS2C_aquatic_enrichment_terms_for_plot.tsv
-A  source_data/Foldwise_ASR_sensitivity/foldwise_ASR_candidate_gene_count_summary.tsv
-A  source_data/Foldwise_ASR_sensitivity/foldwise_ASR_fold_level_summary.tsv
-A  source_data/Foldwise_ASR_sensitivity/foldwise_ASR_selected_predictor_count_summary.tsv
-A  source_data/Foldwise_ASR_sensitivity/foldwise_ASR_vs_frozen_ASR_AUC_summary.tsv
-A  source_data/README.md
-A  tests/smoke_tests/check_expected_counts.R
-A  tests/smoke_tests/check_forbidden_old_values.sh
-A  tests/smoke_tests/check_source_data_files.R
-A  tests/smoke_tests/expected_endpointfix_values.tsv
-?? code/07_nested_ttest_baseline_gLOOCV/
-?? code/08_Figure4_Figure5_alignment/
-?? code/09_corrected_full_data_LASSO_architecture/
-?? code/10_foldwise_ASR_sensitivity/
-?? code/11_figure_generation/Figure2/
-?? code/11_figure_generation/Figure4/prepare_inputs_and_make_Figure4A_corrected.R
-?? code/11_figure_generation/Figure5/
+ M README.md
+ M docs/data_code_availability_draft.md
+ M docs/known_limitations.md
+ M docs/public_release_cleanup_report.tsv
+ M docs/release_QC_report.md
+ M docs/release_plan.md
 ```

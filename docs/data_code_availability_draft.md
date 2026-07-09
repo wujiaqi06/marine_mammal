@@ -12,7 +12,7 @@ pending manuscript publication.
 
 Custom code written for this study is released under the MIT license in the
 paired GitHub repository. Large input/output data required by the scripts are
-provided through Dryad. Planned GitHub release tag: `v1.0-endpoint-fix`, to be
-created when the manuscript and Dryad dataset are released. Scripts retained only
-for provenance and containing local historical paths are isolated under
-`provenance_scripts/not_portable/` and require path adaptation before reuse.
+provided through Dryad. GitHub release tag: `v1.0-endpoint-fix`. Scripts retained
+only for provenance and containing local historical paths are listed in
+`provenance_scripts/nonportable_script_manifest.tsv` and are not distributed in
+the public GitHub release.

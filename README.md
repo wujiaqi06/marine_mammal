@@ -8,10 +8,10 @@ captures, branch-label mapping metadata and smoke tests.
 Large input and output data are deposited in Dryad under DOI
 https://doi.org/10.5061/dryad.dz08kpsd4, including fixed-topology gene
 trees/branch lengths, branch-coordinate matrices, GBI matrices, null outputs,
-screening outputs and supplementary tables. The Dryad DOI is reserved; public
-release is pending manuscript publication. During peer review, reviewers should
-use the private Dryad link provided in the manuscript, not GitHub, to access
-large data files.
+screening outputs and supplementary tables. The Dryad DOI is reserved; Dryad
+public release is pending manuscript publication. During peer review, reviewers
+should use the private Dryad link provided in the manuscript, not GitHub, to
+access large data files.
 
 SplitAligner is available separately at https://github.com/wujiaqi06/SplitAligner.
 Release tag for this Nature Communications submission: `v1.0-endpoint-fix`.
@@ -24,8 +24,8 @@ mapped to the old downstream branch-label rule/order before reproducing the
 manuscript t-test, deterministic ASR label joins, LASSO, Source Data or figure
 outputs. The public Dryad branch-coordinate and GBI matrices are already
 pre-converted to old labels/order. Mapping tables are provided in
-`metadata/branch_label_mapping/`; the historical branch-label provenance script
-is isolated under `provenance_scripts/not_portable/`.
+`metadata/branch_label_mapping/`; non-portable historical branch-label
+provenance scripts are listed in `provenance_scripts/nonportable_script_manifest.tsv`.
 
 ## Minimal workflow
 
