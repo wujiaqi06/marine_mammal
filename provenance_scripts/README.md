@@ -1,9 +1,9 @@
 # Provenance scripts
 
-This directory records provenance for historical scripts that were reviewed but
-not distributed in this public GitHub release because they contained local
-absolute paths, internal package-build assumptions or controlled legacy/QC
-strings.
+This directory records the current disposition of historical scripts reviewed
+during public-package cleanup.
 
-`nonportable_script_manifest.tsv` lists those excluded scripts and explains why
-they were not included. Portable/reviewable workflow scripts are under `../code/`.
+`nonportable_script_manifest.tsv` distinguishes scripts omitted from the public
+package from scripts that are now distributed under `../code/` in path-scrubbed
+or clearly labelled provenance form. It is a disposition ledger, not a claim
+that every listed historical script is absent.

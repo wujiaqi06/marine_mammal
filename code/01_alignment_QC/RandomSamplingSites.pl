@@ -99,7 +99,7 @@ foreach my $i (@seq_name){
 	my @sites = split("", $seq{$i});
 	my @sample_sites;
 	foreach my $j (@number){
-		my $codon = $cds_seq[3*$j].$cds_seq[3*$j+1].$cds_seq[3*$j+2];
+		my $codon = $sites[3*$j].$sites[3*$j+1].$sites[3*$j+2];
 		push @sample_sites, $codon;
 	}
 	#print "Site Length is $#sample_sites\n";
@@ -140,4 +140,3 @@ sub uniq{
 	my %seen;
 	return grep {!$seen{$_}++} @_;
 }
-

@@ -1,0 +1,3 @@
+model	run_id	archived_n_rows	rebuilt_n_features_after_filter	archived_n_selected	rebuilt_n_selected	selected_gene_set_identical	max_abs_coefficient_difference	lambda_archived	lambda_rebuilt	intercept_rebuilt	status
+marine	fix_marine_binary	1559	1559	71	71	TRUE	4.9960036108132e-16	0.00312199972286899	0.00312199972286899	-3.98243194839294	PASS
+binary_aquatic_dependence	fix_aquatic_v2	1227	1227	101	101	TRUE	4.88498130835069e-15	0.00457039259477403	0.00457039259477403	-2.75018905096971	PASS

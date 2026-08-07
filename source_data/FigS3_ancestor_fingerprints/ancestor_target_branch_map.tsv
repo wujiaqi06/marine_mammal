@@ -1,0 +1,14 @@
+target_name	display_label	branch_group	inclusion_set	plot_order	native_branch_label	branch_id	target_type	target_note	branch_label_found	branch_id_found_in_gbi
+common_ancestor_Cetacea_plus_Hippopotamus	Cetacea + hippo ancestor	Cetacean axis	required	1	B593	B593	internal_clade	Exact internal clade: Hippopotamus_amphibius plus sampled Cetacea; native B593 maps to old B593.	TRUE	TRUE
+crown_Cetacea	Crown Cetacea	Cetacean axis	required	2	B592	B592	internal_clade	Exact internal clade: sampled crown Cetacea; native B592 maps to old B592.	TRUE	TRUE
+Mysticeti	Mysticeti	Cetacean axis	optional	3	B568	B544	internal_clade	Exact internal clade: sampled Mysticeti; native B568 maps to old B544.	TRUE	TRUE
+Odontoceti	Odontoceti	Cetacean axis	required	4	B591	B591	internal_clade	Exact internal clade: sampled Odontoceti; native B591 maps to old B591.	TRUE	TRUE
+Pinnipedia	Crown Pinnipedia	Pinniped axis	required	5	B501	B410	internal_clade	Exact internal clade: sampled Pinnipedia; native B501 maps to old B410.	TRUE	TRUE
+Phocidae	Phocidae	Pinniped axis	required	6	B500	B409	internal_clade	Exact internal clade: sampled Phocidae; native B500 maps to old B409.	TRUE	TRUE
+Otarioidea	Otarioidea	Pinniped axis	required	7	B493	B394	internal_clade	Exact internal clade: Odobenus plus sampled otariids; native B493 maps to old B394.	TRUE	TRUE
+Otariidae	Otariidae	Pinniped axis	required	8	B492	B393	internal_clade	Exact internal clade: sampled Otariidae; native B492 maps to old B393.	TRUE	TRUE
+Otariinae_sampled	Otariinae	Pinniped axis	optional	9	B491	B392	internal_clade	Exact internal clade: Eumetopias plus Zalophus; native B491 maps to old B392.	TRUE	TRUE
+Sirenia	Sirenia	Sirenian / edge context	required	10	B313	B26	internal_clade	Exact internal clade: sampled Sirenia; native B313 maps to old B26.	TRUE	TRUE
+Dugong_plus_Hydrodamalis	Dugong + Hydrodamalis	Sirenian / edge context	required	11	B312	B25	internal_clade	Exact internal clade: Dugong_dugon plus Hydrodamalis_gigas; native B312 maps to old B25.	TRUE	TRUE
+Ursus_arctos_plus_Ursus_maritimus	Brown bear + polar bear	Sirenian / edge context	optional	12	B470	B349	internal_clade	Exact internal clade: sampled brown bear plus polar bear; native B470 maps to old B349.	TRUE	TRUE
+Lutrinae_sampled	Lutrinae / Enhydra-related	Sirenian / edge context	optional	13	B483	B380	internal_clade	Exact internal clade: sampled Pteronura/Lontra/Enhydra/Aonyx/Lutra; native B483 maps to old B380.	TRUE	TRUE

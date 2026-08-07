@@ -1,5 +1,14 @@
-# Copy this file and edit paths for local reproduction.
+# Human-readable path template only. Current portable scripts read the
+# environment variables named below; they do not parse this YAML file.
 dryad_data_root: /path/to/Dryad_ready_data
 source_data_root: /path/to/Dryad_ready_data/13_source_data
 large_archive_root: /path/to/Dryad_ready_data/17_large_matrix_archives
 output_root: /path/to/local/reproduction_outputs
+
+environment_variable_mapping:
+  MARINE_MAMMAL_ENDPOINTFIX_ROOT: /path/to/unpacked_endpointfix_project
+  MARINE_MAMMAL_NC_OUTPUT_ROOT: /path/to/local/reproduction_outputs
+  MARINE_MAMMAL_NC_FIG6_SOURCE_ROOT: /path/to/lightweight/Fig6/source_data
+  MARINE_MAMMAL_NC_FIG6_OUTPUT: /path/to/local/Figure6/output
+  MARINE_MAMMAL_NC_SOURCE_ROOT: /path/to/lightweight/FigS3/source_data
+  MARINE_MAMMAL_NC_FIGURES3_OUTPUT: /path/to/local/FigureS3/output

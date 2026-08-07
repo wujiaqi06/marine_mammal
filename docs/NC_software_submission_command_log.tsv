@@ -1,0 +1,18 @@
+command	exit_code	real_seconds	result_or_note
+bash demo/run_demo.sh	0	0.61	PASS lightweight real-data demo and endpoint-fix checks
+bash tests/smoke_tests/run_all.sh	0	1.03	PASS smoke manifest provenance branch-label mapping and demo checks
+python3 -m py_compile code/12_NC_species_ancestral_fingerprints/*.py	0	NA	PASS Python syntax
+parse all new/copied R scripts	0	NA	PASS R syntax
+build_Figure6A_projection_profiles.py from outside repository	0	1.15	PASS source-consistent PDF PNG SVG and QC generation
+build_Figure6_layout.py from outside repository	0	7.37	PASS source-consistent combined artwork variants
+build_FigureS3_two_column.R from outside repository	0	6.31	PASS source-consistent FigS3 artwork variants
+Rscript scripts/build_source_data_manifest.R	0	NA	PASS 46 files match locked manifest
+Rscript tests/smoke_tests/check_nc_source_provenance.R	0	NA	PASS 12 NC files match reviewed SHA-256 values
+Rscript tests/smoke_tests/check_branch_label_mapper.R	0	NA	PASS complete 601-branch current-to-old mapping; literal NA retained
+R parse check over code scripts tests demo env metadata	0	NA	PASS all distributed R scripts parse
+python3 -m compileall -q code scripts tests	0	NA	PASS all distributed Python scripts compile
+perl -c over code/*.pl	0	NA	PASS all distributed Perl scripts compile after two documented mechanical repairs
+local absolute path grep	0	NA	PASS zero distributable-tree hits
+forbidden legacy value grep	0	NA	PASS zero public-facing hits
+find files greater than 100 MB	0	NA	PASS zero files outside .git
+git diff --check	0	NA	PASS

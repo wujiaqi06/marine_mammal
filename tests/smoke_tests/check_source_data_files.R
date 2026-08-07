@@ -9,7 +9,11 @@ required <- c(
   "source_data/Fig4_corrected_full_data_architecture/Figure4A_plot_table.tsv",
   "source_data/Fig5_sensitivity_permutation_turnover/Figure5A_nested_sensitivity_table.tsv",
   "source_data/Fig5_sensitivity_permutation_turnover/Figure5B_endpointfix_source_check.tsv",
-  "source_data/Fig5_sensitivity_permutation_turnover/Figure5C_module_null_summary_2col.tsv"
+  "source_data/Fig5_sensitivity_permutation_turnover/Figure5C_module_null_summary_2col.tsv",
+  "source_data/Fig6_species_ancestral_fingerprints/SourceData_Fig6A_projection_profiles.csv",
+  "source_data/Fig6_species_ancestral_fingerprints/SourceData_Fig6BC_species_fingerprints_long.csv",
+  "source_data/FigS3_ancestor_fingerprints/SourceData_FigS3_ancestor_profile_scores.csv",
+  "source_data/FigS3_ancestor_fingerprints/SourceData_FigS3_ancestor_fingerprints_long.csv"
 )
 package_root <- root
 missing <- required[!file.exists(file.path(package_root, required))]

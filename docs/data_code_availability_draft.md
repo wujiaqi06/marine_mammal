@@ -12,7 +12,9 @@ pending manuscript publication.
 
 Custom code written for this study is released under the MIT license in the
 paired GitHub repository. Large input/output data required by the scripts are
-provided through Dryad. GitHub release tag: `v1.0-endpoint-fix`. Scripts retained
-only for provenance and containing local historical paths are listed in
-`provenance_scripts/nonportable_script_manifest.tsv` and are not distributed in
-the public GitHub release.
+provided through Dryad. GitHub release tag: `v1.1-nc-submission`; the frozen
+endpoint-fix baseline remains available as `v1.0-endpoint-fix`. Scripts retained
+only for provenance and containing local historical paths are identified in
+`provenance_scripts/nonportable_script_manifest.tsv`. The current NC
+release extends the endpoint-fix baseline with Fig. 6 and Supplementary Fig. S3
+source data, plotting/projection scripts and reviewer-facing reproducibility checks.

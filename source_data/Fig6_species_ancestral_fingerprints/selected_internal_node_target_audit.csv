@@ -1,0 +1,18 @@
+target_name	native_branch_label	branch_id	target_type	target_note	branch_label_found
+common_ancestor_Cetacea_plus_Hippopotamus	B593	B593	internal_clade	Exact internal clade: Hippopotamus_amphibius plus sampled Cetacea; native B593 maps to old B593.	TRUE
+crown_Cetacea	B592	B592	internal_clade	Exact internal clade: sampled crown Cetacea; native B592 maps to old B592.	TRUE
+Mysticeti	B568	B544	internal_clade	Exact internal clade: sampled Mysticeti; native B568 maps to old B544.	TRUE
+Odontoceti	B591	B591	internal_clade	Exact internal clade: sampled Odontoceti; native B591 maps to old B591.	TRUE
+Platanista_terminal_branch	B281	B548	terminal_lineage	Single sampled Platanista branch; native B281 maps to old B548.	TRUE
+Inia_plus_Lipotes	B573	B558	internal_clade	Exact internal clade: Inia_geoffrensis plus Lipotes_vexillifer; native B573 maps to old B558.	TRUE
+Pinnipedia	B501	B410	internal_clade	Exact internal clade: sampled Pinnipedia; native B501 maps to old B410.	TRUE
+Phocidae	B500	B409	internal_clade	Exact internal clade: sampled Phocidae; native B500 maps to old B409.	TRUE
+Otarioidea	B493	B394	internal_clade	Exact internal clade: Odobenus plus sampled otariids; native B493 maps to old B394.	TRUE
+Otariidae	B492	B393	internal_clade	Exact internal clade: sampled Otariidae; native B492 maps to old B393.	TRUE
+Otariinae_sampled	B491	B392	internal_clade	Exact internal clade: Eumetopias plus Zalophus; native B491 maps to old B392.	TRUE
+Sirenia	B313	B26	internal_clade	Exact internal clade: sampled Sirenia; native B313 maps to old B26.	TRUE
+Dugong_plus_Hydrodamalis	B312	B25	internal_clade	Exact internal clade: Dugong_dugon plus Hydrodamalis_gigas; native B312 maps to old B25.	TRUE
+Trichechus_terminal_branch	B13	B22	terminal_lineage	Single sampled Trichechus branch; native B13 maps to old B22.	TRUE
+Ursus_arctos_plus_Ursus_maritimus	B470	B349	internal_clade	Exact internal clade: sampled brown bear plus polar bear; native B470 maps to old B349.	TRUE
+Lutrinae_sampled	B483	B380	internal_clade	Exact internal clade: sampled Pteronura/Lontra/Enhydra/Aonyx/Lutra; native B483 maps to old B380.	TRUE
+Enhydra_terminal_branch	B197	B374	terminal_lineage	Single sampled sea otter branch; native B197 maps to old B374.	TRUE

@@ -1,0 +1,11 @@
+package	tested_version	purpose
+ape	5.8.1	phylogenetic tree input and manipulation
+castor	1.8.4	deterministic and missing-label maximum-parsimony ASR
+glmnet	4.1.10	penalized logistic regression
+ggplot2	4.0.0	figure generation
+gridExtra	2.3	multi-panel figure arrangement
+svglite	2.2.2	SVG export
+pROC	1.19.0.1	ROC support in figure and validation scripts
+cowplot	1.2.0	figure composition
+ggrepel	0.9.6	label placement
+digest	0.6.38	hash and reproducibility checks

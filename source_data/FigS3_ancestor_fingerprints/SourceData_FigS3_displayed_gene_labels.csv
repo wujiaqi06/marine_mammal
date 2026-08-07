@@ -1,0 +1,183 @@
+"display_label","branch_id","model","gene","gene_order","module","coefficient","scaled_GBI","contribution","abs_contribution","label_rank"
+"Brown bear + polar bear","B349","binary_aquatic_dependence","TGM3",101,"Epithelial / body-surface interface",1.04080869919882,-1.69603332234884,-1.76524623603174,1.76524623603174,1
+"Brown bear + polar bear","B349","binary_aquatic_dependence","PER1",100,"Endocrine / circadian / systemic regulation",0.784004329488712,-2.13299524816487,-1.67227750934011,1.67227750934011,2
+"Brown bear + polar bear","B349","binary_aquatic_dependence","WDR93",2,"Cilia / flagella / reproductive-cell function",-0.4793197990576,-1.95118120400594,0.935239782629095,0.935239782629095,3
+"Brown bear + polar bear","B349","binary_aquatic_dependence","ACADSB",14,"Metabolism / redox / lipid handling",-0.238865076823398,3.73940880920809,-0.893214172485581,0.893214172485581,4
+"Brown bear + polar bear","B349","binary_aquatic_dependence","NWD1",97,"Developmental / transcriptional signaling regulators",0.404558879261438,-2.18087531346393,-0.882292472623907,0.882292472623907,5
+"Brown bear + polar bear","B349","binary_aquatic_dependence","FAM13A",96,"Developmental / transcriptional signaling regulators",0.348973910716795,-2.30749048069004,-0.80525397698818,0.80525397698818,6
+"Brown bear + polar bear","B349","binary_aquatic_dependence","CACNA1G",99,"Ion channels / mechanosensation / membrane signaling",0.593854706123962,-1.2268101338551,-0.72854697151042,0.72854697151042,7
+"Brown bear + polar bear","B349","marine","TGM3",71,"Epithelial / body-surface interface",0.691315381170856,-1.7172799009855,-1.18718200932684,1.18718200932684,1
+"Brown bear + polar bear","B349","marine","KCNK18",69,"Ion channels / mechanosensation / membrane signaling",0.43928773003255,-1.84894711320307,-0.812219780309212,0.812219780309212,2
+"Brown bear + polar bear","B349","marine","MYH7B",67,"Cytoskeletal / muscle / ECM / adhesion",0.397856553371577,1.61756087030557,0.643557192728503,0.643557192728503,3
+"Brown bear + polar bear","B349","marine","TRIM66",44,"DNA repair / chromatin / cell-cycle",0.0785377211171152,6.56758940833018,0.515803505363155,0.515803505363155,4
+"Brown bear + polar bear","B349","marine","SDR9C7",68,"Epithelial / body-surface interface",0.409389888665918,-1.25209097364866,-0.512593384301628,0.512593384301628,5
+"Brown bear + polar bear","B349","marine","OR52W1",61,"Sensory systems",0.282799403614638,-1.69014656195179,-0.477972439741297,0.477972439741297,6
+"Brown bear + polar bear","B349","marine","WDR93",8,"Cilia / flagella / reproductive-cell function",-0.242927446164409,-1.96092042820439,0.47636139175531,0.47636139175531,7
+"Cetacea + hippo ancestor","B593","binary_aquatic_dependence","TGM3",101,"Epithelial / body-surface interface",1.04080869919882,2.21446954561285,2.3048391671847,2.3048391671847,1
+"Cetacea + hippo ancestor","B593","binary_aquatic_dependence","LRP2",98,"Transport / endocytic / epithelial solute handling",0.471378525654808,4.01679782060841,1.89343223453184,1.89343223453184,2
+"Cetacea + hippo ancestor","B593","binary_aquatic_dependence","PER1",100,"Endocrine / circadian / systemic regulation",0.784004329488712,-1.92182721378643,-1.50672085613779,1.50672085613779,3
+"Cetacea + hippo ancestor","B593","binary_aquatic_dependence","PFKP",4,"Metabolism / redox / lipid handling",-0.356881027792284,2.11040151153593,-0.753162260491333,0.753162260491333,4
+"Cetacea + hippo ancestor","B593","binary_aquatic_dependence","IL33",94,"Immune / inflammatory regulation",0.340038935001018,1.77089357082817,0.60217276382456,0.60217276382456,5
+"Cetacea + hippo ancestor","B593","binary_aquatic_dependence","ATF7IP2",1,"DNA repair / chromatin / cell-cycle",-0.581769927151342,-0.950457125790869,0.552947372831828,0.552947372831828,6
+"Cetacea + hippo ancestor","B593","binary_aquatic_dependence","WDR93",2,"Cilia / flagella / reproductive-cell function",-0.4793197990576,1.10262152465278,-0.528508327633155,0.528508327633155,7
+"Cetacea + hippo ancestor","B593","marine","TGM3",71,"Epithelial / body-surface interface",0.691315381170856,2.26468495935251,1.56561154590669,1.56561154590669,1
+"Cetacea + hippo ancestor","B593","marine","TPX2",2,"DNA repair / chromatin / cell-cycle",-0.547364151458345,2.52917132444605,-1.38437771589819,1.38437771589819,2
+"Cetacea + hippo ancestor","B593","marine","F11",7,"Vascular / hematologic regulation",-0.254306353084796,3.29990152707931,-0.83918592289049,0.83918592289049,3
+"Cetacea + hippo ancestor","B593","marine","ASMTL",10,"Endocrine / circadian / systemic regulation",-0.225475311673798,2.20075782167452,-0.496216555760611,0.496216555760611,4
+"Cetacea + hippo ancestor","B593","marine","IL33",59,"Immune / inflammatory regulation",0.27044270721607,1.80742195264678,0.488804085955552,0.488804085955552,5
+"Cetacea + hippo ancestor","B593","marine","MYH13",70,"Cytoskeletal / muscle / ECM / adhesion",0.480299625271563,-0.79063567847604,-0.37974202009837,0.37974202009837,6
+"Cetacea + hippo ancestor","B593","marine","EPOR",1,"Vascular / hematologic regulation",-0.562386788005208,-0.643961483788576,0.362155430466925,0.362155430466925,7
+"Crown Cetacea","B592","binary_aquatic_dependence","TGM3",101,"Epithelial / body-surface interface",1.04080869919882,2.37978610985346,2.47690208536799,2.47690208536799,1
+"Crown Cetacea","B592","binary_aquatic_dependence","PER1",100,"Endocrine / circadian / systemic regulation",0.784004329488712,1.92710373109188,1.51085766854988,1.51085766854988,2
+"Crown Cetacea","B592","binary_aquatic_dependence","PUSL1",6,"Metabolism / redox / lipid handling",-0.314220898750119,1.88964550598599,-0.59376610921004,0.59376610921004,3
+"Crown Cetacea","B592","binary_aquatic_dependence","PRSS53",89,"Epithelial / body-surface interface",0.194083977905306,2.11579829502964,0.410642549544615,0.410642549544615,4
+"Crown Cetacea","B592","binary_aquatic_dependence","PDGFB",5,"Vascular / hematologic regulation",-0.348561123284862,1.08897335640145,-0.379573776334576,0.379573776334576,5
+"Crown Cetacea","B592","binary_aquatic_dependence","WDR93",2,"Cilia / flagella / reproductive-cell function",-0.4793197990576,-0.745919106237803,0.357533796115129,0.357533796115129,6
+"Crown Cetacea","B592","binary_aquatic_dependence","OR52W1",88,"Sensory systems",0.190684677268266,1.38310812837251,0.263737527085827,0.263737527085827,7
+"Crown Cetacea","B592","marine","TGM3",71,"Epithelial / body-surface interface",0.691315381170856,2.43302258033502,1.6819859325216,1.6819859325216,1
+"Crown Cetacea","B592","marine","KRTDAP",66,"Epithelial / body-surface interface",0.386565925079529,1.59463705565283,0.616432348584532,0.616432348584532,2
+"Crown Cetacea","B592","marine","PUSL1",5,"Metabolism / redox / lipid handling",-0.270477624990477,1.90812849125645,-0.516106062491707,0.516106062491707,3
+"Crown Cetacea","B592","marine","OR52W1",61,"Sensory systems",0.282799403614638,1.37492373000625,0.388827610861381,0.388827610861381,4
+"Crown Cetacea","B592","marine","SSTR4",52,"Endocrine / circadian / systemic regulation",0.137940410562783,2.56488849133872,0.35380177154302,0.35380177154302,5
+"Crown Cetacea","B592","marine","ACP4",65,"Cytoskeletal / muscle / ECM / adhesion",0.36185377349003,0.749583795952328,0.271239725112331,0.271239725112331,6
+"Crown Cetacea","B592","marine","CD34",9,"Vascular / hematologic regulation",-0.231912055829233,-0.965606190449255,0.22393571674852,0.22393571674852,7
+"Crown Pinnipedia","B410","binary_aquatic_dependence","PER1",100,"Endocrine / circadian / systemic regulation",0.784004329488712,1.14686079145267,0.899143825819746,0.899143825819746,1
+"Crown Pinnipedia","B410","binary_aquatic_dependence","CACNA1G",99,"Ion channels / mechanosensation / membrane signaling",0.593854706123962,0.856493163342732,0.508632495814081,0.508632495814081,2
+"Crown Pinnipedia","B410","binary_aquatic_dependence","PMIS2",3,"Developmental / transcriptional signaling regulators",-0.39072525213697,-0.912747553737685,0.35663351807156,0.35663351807156,3
+"Crown Pinnipedia","B410","binary_aquatic_dependence","ATF7IP2",1,"DNA repair / chromatin / cell-cycle",-0.581769927151342,-0.605662267577492,0.352356093286874,0.352356093286874,4
+"Crown Pinnipedia","B410","binary_aquatic_dependence","KEAP1",21,"Developmental / transcriptional signaling regulators",-0.19883739251004,1.46780926495515,-0.29185536694576,0.29185536694576,5
+"Crown Pinnipedia","B410","binary_aquatic_dependence","TTC28",15,"Developmental / transcriptional signaling regulators",-0.237914556985983,1.18412251609546,-0.281719983833979,0.281719983833979,6
+"Crown Pinnipedia","B410","binary_aquatic_dependence","PFKP",4,"Metabolism / redox / lipid handling",-0.356881027792284,0.693880836050186,-0.24763290593496,0.24763290593496,7
+"Crown Pinnipedia","B410","marine","EPOR",1,"Vascular / hematologic regulation",-0.562386788005208,-0.728112625897194,0.409480920984361,0.409480920984361,1
+"Crown Pinnipedia","B410","marine","TPX2",2,"DNA repair / chromatin / cell-cycle",-0.547364151458345,-0.567162475783006,0.310444407295979,0.310444407295979,2
+"Crown Pinnipedia","B410","marine","TRIM66",44,"DNA repair / chromatin / cell-cycle",0.0785377211171152,3.52001916185544,0.276454283260704,0.276454283260704,3
+"Crown Pinnipedia","B410","marine","SDR9C7",68,"Epithelial / body-surface interface",0.409389888665918,-0.451061458929896,-0.184660000452797,0.184660000452797,4
+"Crown Pinnipedia","B410","marine","HOXD10",60,"Developmental / transcriptional signaling regulators",0.28020716230031,-0.60795096148977,-0.170352213736793,0.170352213736793,5
+"Crown Pinnipedia","B410","marine","FANCM",12,"DNA repair / chromatin / cell-cycle",-0.215464965565117,0.745606843057031,-0.160652152764398,0.160652152764398,6
+"Crown Pinnipedia","B410","marine","OR52W1",61,"Sensory systems",0.282799403614638,0.548854428108315,0.155215704940285,0.155215704940285,7
+"Dugong + Hydrodamalis","B25","binary_aquatic_dependence","PDGFB",5,"Vascular / hematologic regulation",-0.348561123284862,1.75550979038938,-0.611902464475696,0.611902464475696,1
+"Dugong + Hydrodamalis","B25","binary_aquatic_dependence","IL33",94,"Immune / inflammatory regulation",0.340038935001018,-1.25231167496481,-0.425834728244375,0.425834728244375,2
+"Dugong + Hydrodamalis","B25","binary_aquatic_dependence","PER1",100,"Endocrine / circadian / systemic regulation",0.784004329488712,-0.494138411226618,-0.387406653768342,0.387406653768342,3
+"Dugong + Hydrodamalis","B25","binary_aquatic_dependence","NUBP2",13,"Metabolism / redox / lipid handling",-0.239999172123246,-1.04889996203436,0.25173512252835,0.25173512252835,4
+"Dugong + Hydrodamalis","B25","binary_aquatic_dependence","C16orf91",9,"Unassigned / low-confidence",-0.262195862787636,-0.818490808536276,0.214604903727919,0.214604903727919,5
+"Dugong + Hydrodamalis","B25","binary_aquatic_dependence","PUSL1",6,"Metabolism / redox / lipid handling",-0.314220898750119,-0.613394521599998,0.192741377865551,0.192741377865551,6
+"Dugong + Hydrodamalis","B25","binary_aquatic_dependence","CASTOR1",40,"Endocrine / circadian / systemic regulation",-0.0825057476543748,2.05005959172027,-0.169141699350903,0.169141699350903,7
+"Dugong + Hydrodamalis","B25","marine","TPX2",2,"DNA repair / chromatin / cell-cycle",-0.547364151458345,2.60533077025585,-1.42606466632941,1.42606466632941,1
+"Dugong + Hydrodamalis","B25","marine","EPOR",1,"Vascular / hematologic regulation",-0.562386788005208,1.26649833692855,-0.712261931719188,0.712261931719188,2
+"Dugong + Hydrodamalis","B25","marine","IL33",59,"Immune / inflammatory regulation",0.27044270721607,-1.25623647320033,-0.339739992715866,0.339739992715866,3
+"Dugong + Hydrodamalis","B25","marine","HOXD10",60,"Developmental / transcriptional signaling regulators",0.28020716230031,0.963959025392267,0.270108223078939,0.270108223078939,4
+"Dugong + Hydrodamalis","B25","marine","SDR9C7",68,"Epithelial / body-surface interface",0.409389888665918,-0.526229367957119,-0.215432982360701,0.215432982360701,5
+"Dugong + Hydrodamalis","B25","marine","APH1B",14,"Membrane trafficking / ER / vesicle processing",-0.152260877432123,1.1544469310121,-0.175777102664723,0.175777102664723,6
+"Dugong + Hydrodamalis","B25","marine","HGFAC",3,"Vascular / hematologic regulation",-0.314672853107267,0.53453366461062,-0.168203233324907,0.168203233324907,7
+"Lutrinae / Enhydra-related","B380","binary_aquatic_dependence","PER1",100,"Endocrine / circadian / systemic regulation",0.784004329488712,1.23911585952592,0.971472198606451,0.971472198606451,1
+"Lutrinae / Enhydra-related","B380","binary_aquatic_dependence","PUSL1",6,"Metabolism / redox / lipid handling",-0.314220898750119,2.44721978996208,-0.768967601840962,0.768967601840962,2
+"Lutrinae / Enhydra-related","B380","binary_aquatic_dependence","ATF7IP2",1,"DNA repair / chromatin / cell-cycle",-0.581769927151342,1.31691961767155,-0.766144230036948,0.766144230036948,3
+"Lutrinae / Enhydra-related","B380","binary_aquatic_dependence","KIF18A",95,"DNA repair / chromatin / cell-cycle",0.340198342633948,-1.47964940305389,-0.503374274598242,0.503374274598242,4
+"Lutrinae / Enhydra-related","B380","binary_aquatic_dependence","ACADSB",14,"Metabolism / redox / lipid handling",-0.238865076823398,-1.85410187467603,0.442880186732896,0.442880186732896,5
+"Lutrinae / Enhydra-related","B380","binary_aquatic_dependence","CACNA1G",99,"Ion channels / mechanosensation / membrane signaling",0.593854706123962,-0.736989778825035,-0.437664848520505,0.437664848520505,6
+"Lutrinae / Enhydra-related","B380","binary_aquatic_dependence","IL33",94,"Immune / inflammatory regulation",0.340038935001018,-1.25231167496481,-0.425834728244375,0.425834728244375,7
+"Lutrinae / Enhydra-related","B380","marine","HIGD1B",62,"Vascular / hematologic regulation",0.328380050132626,2.36106303074782,0.77532599640326,0.77532599640326,1
+"Lutrinae / Enhydra-related","B380","marine","PUSL1",5,"Metabolism / redox / lipid handling",-0.270477624990477,2.47049022849186,-0.668212329564657,0.668212329564657,2
+"Lutrinae / Enhydra-related","B380","marine","FAM234A",18,"Unassigned / low-confidence",-0.108556846491888,5.98528734085229,-0.649743919070743,0.649743919070743,3
+"Lutrinae / Enhydra-related","B380","marine","KCNK18",69,"Ion channels / mechanosensation / membrane signaling",0.43928773003255,-1.21344822905597,-0.533052918054014,0.533052918054014,4
+"Lutrinae / Enhydra-related","B380","marine","ALOX12B",54,"Epithelial / body-surface interface",0.149753620737968,3.01865542951177,0.452054580329715,0.452054580329715,5
+"Lutrinae / Enhydra-related","B380","marine","ACP4",65,"Cytoskeletal / muscle / ECM / adhesion",0.36185377349003,-1.04945723387968,-0.379750060195771,0.379750060195771,6
+"Lutrinae / Enhydra-related","B380","marine","MYH7B",67,"Cytoskeletal / muscle / ECM / adhesion",0.397856553371577,-0.886166488666984,-0.352567144894439,0.352567144894439,7
+"Mysticeti","B544","binary_aquatic_dependence","TGM3",101,"Epithelial / body-surface interface",1.04080869919882,3.35629556968149,3.49326162600694,3.49326162600694,1
+"Mysticeti","B544","binary_aquatic_dependence","FAM13A",96,"Developmental / transcriptional signaling regulators",0.348973910716795,2.1136166577815,0.737597070822171,0.737597070822171,2
+"Mysticeti","B544","binary_aquatic_dependence","SYTL5",93,"Membrane trafficking / ER / vesicle processing",0.265993756746688,1.95213536253981,0.519255818760022,0.519255818760022,3
+"Mysticeti","B544","binary_aquatic_dependence","PDGFB",5,"Vascular / hematologic regulation",-0.348561123284862,-1.26540545001707,0.441071145068738,0.441071145068738,4
+"Mysticeti","B544","binary_aquatic_dependence","PMIS2",3,"Developmental / transcriptional signaling regulators",-0.39072525213697,-1.11454446072728,0.435480665435529,0.435480665435529,5
+"Mysticeti","B544","binary_aquatic_dependence","LRP2",98,"Transport / endocytic / epithelial solute handling",0.471378525654808,-0.871086630920443,-0.410611531800893,0.410611531800893,6
+"Mysticeti","B544","binary_aquatic_dependence","PRSS53",89,"Epithelial / body-surface interface",0.194083977905306,1.55501341674412,0.30180318961782,0.30180318961782,7
+"Mysticeti","B544","marine","TGM3",71,"Epithelial / body-surface interface",0.691315381170856,3.42737713935613,2.36939853351026,2.36939853351026,1
+"Mysticeti","B544","marine","KRTDAP",66,"Epithelial / body-surface interface",0.386565925079529,3.96281146283065,1.53188787904489,1.53188787904489,2
+"Mysticeti","B544","marine","MYH13",70,"Cytoskeletal / muscle / ECM / adhesion",0.480299625271563,3.17806330627745,1.52642261509437,1.52642261509437,3
+"Mysticeti","B544","marine","KRT17",57,"Epithelial / body-surface interface",0.189861649168978,4.50468499097082,0.855266921372465,0.855266921372465,4
+"Mysticeti","B544","marine","HIGD1B",62,"Vascular / hematologic regulation",0.328380050132626,2.11745684216464,0.695330583983698,0.695330583983698,5
+"Mysticeti","B544","marine","IL36G",56,"Immune / inflammatory regulation",0.166019839478868,4.17380519819718,0.692934469020761,0.692934469020761,6
+"Mysticeti","B544","marine","NKPD1",58,"Unassigned / low-confidence",0.230941713295598,2.95305214558461,0.681982921952551,0.681982921952551,7
+"Odontoceti","B591","binary_aquatic_dependence","TGM3",101,"Epithelial / body-surface interface",1.04080869919882,1.71760144498072,1.78769452569239,1.78769452569239,1
+"Odontoceti","B591","binary_aquatic_dependence","WDR93",2,"Cilia / flagella / reproductive-cell function",-0.4793197990576,2.79337272873195,-1.33891885502878,1.33891885502878,2
+"Odontoceti","B591","binary_aquatic_dependence","LRP2",98,"Transport / endocytic / epithelial solute handling",0.471378525654808,-1.90251226232833,-0.896803425256523,0.896803425256523,3
+"Odontoceti","B591","binary_aquatic_dependence","NWD1",97,"Developmental / transcriptional signaling regulators",0.404558879261438,2.13134197001468,0.862253318712004,0.862253318712004,4
+"Odontoceti","B591","binary_aquatic_dependence","ATF7IP2",1,"DNA repair / chromatin / cell-cycle",-0.581769927151342,-1.26332913940761,0.73496690140133,0.73496690140133,5
+"Odontoceti","B591","binary_aquatic_dependence","NLRP8",11,"Immune / inflammatory regulation",-0.249357601464042,2.52224184057161,-0.628940175677187,0.628940175677187,6
+"Odontoceti","B591","binary_aquatic_dependence","PUSL1",6,"Metabolism / redox / lipid handling",-0.314220898750119,-1.658852287477,0.521246056664714,0.521246056664714,7
+"Odontoceti","B591","marine","KRT17",57,"Epithelial / body-surface interface",0.189861649168978,8.01156136287436,1.52108825277379,1.52108825277379,1
+"Odontoceti","B591","marine","IL36G",56,"Immune / inflammatory regulation",0.166019839478868,7.4991103527243,1.24500109699361,1.24500109699361,2
+"Odontoceti","B591","marine","TGM3",71,"Epithelial / body-surface interface",0.691315381170856,1.75873690516497,1.21584187397337,1.21584187397337,3
+"Odontoceti","B591","marine","TPX2",2,"DNA repair / chromatin / cell-cycle",-0.547364151458345,-1.48197132846654,0.811177978691681,0.811177978691681,4
+"Odontoceti","B591","marine","KRTDAP",66,"Epithelial / body-surface interface",0.386565925079529,2.00567549029258,0.775325801314288,0.775325801314288,5
+"Odontoceti","B591","marine","NKPD1",58,"Unassigned / low-confidence",0.230941713295598,3.30013257701517,0.762138271438499,0.762138271438499,6
+"Odontoceti","B591","marine","WDR93",8,"Cilia / flagella / reproductive-cell function",-0.242927446164409,2.8334785110413,-0.688329698448994,0.688329698448994,7
+"Otariidae","B393","binary_aquatic_dependence","PER1",100,"Endocrine / circadian / systemic regulation",0.784004329488712,1.19354907415823,0.935747641597296,0.935747641597296,1
+"Otariidae","B393","binary_aquatic_dependence","ACADSB",14,"Metabolism / redox / lipid handling",-0.238865076823398,3.02406705652264,-0.722344009775387,0.722344009775387,2
+"Otariidae","B393","binary_aquatic_dependence","SDR9C7",91,"Epithelial / body-surface interface",0.220181989308241,2.50011832341195,0.550481025954827,0.550481025954827,3
+"Otariidae","B393","binary_aquatic_dependence","SLC6A15",16,"Transport / endocytic / epithelial solute handling",-0.23289351110375,2.22530909925717,-0.518260049417126,0.518260049417126,4
+"Otariidae","B393","binary_aquatic_dependence","TGM3",101,"Epithelial / body-surface interface",1.04080869919882,-0.452983284835164,-0.471468943448094,0.471468943448094,5
+"Otariidae","B393","binary_aquatic_dependence","NLRP8",11,"Immune / inflammatory regulation",-0.249357601464042,-1.24584100762268,0.310659925466337,0.310659925466337,6
+"Otariidae","B393","binary_aquatic_dependence","TIGD7",26,"Developmental / transcriptional signaling regulators",-0.153350666144971,1.93834609322955,-0.297246664616254,0.297246664616254,7
+"Otariidae","B393","marine","SDR9C7",68,"Epithelial / body-surface interface",0.409389888665918,2.55593872449409,1.04637546985754,1.04637546985754,1
+"Otariidae","B393","marine","HIGD1B",62,"Vascular / hematologic regulation",0.328380050132626,0.982658706583528,0.322685515331161,0.322685515331161,2
+"Otariidae","B393","marine","TGM3",71,"Epithelial / body-surface interface",0.691315381170856,-0.451513902045998,-0.312138505296869,0.312138505296869,3
+"Otariidae","B393","marine","NR2C2AP",41,"Developmental / transcriptional signaling regulators",0.0628652617594018,4.54484588179623,0.28571292601526,0.28571292601526,4
+"Otariidae","B393","marine","HGFAC",3,"Vascular / hematologic regulation",-0.314672853107267,-0.817573571524875,0.25726820837683,0.25726820837683,5
+"Otariidae","B393","marine","ESYT3",55,"Membrane trafficking / ER / vesicle processing",0.153832070750976,1.49753245265553,0.230368518208788,0.230368518208788,6
+"Otariidae","B393","marine","ASMTL",10,"Endocrine / circadian / systemic regulation",-0.225475311673798,-1.0189767812077,0.229754107331169,0.229754107331169,7
+"Otariinae","B392","binary_aquatic_dependence","WDR93",2,"Cilia / flagella / reproductive-cell function",-0.4793197990576,-1.95118120400594,0.935239782629095,0.935239782629095,1
+"Otariinae","B392","binary_aquatic_dependence","NWD1",97,"Developmental / transcriptional signaling regulators",0.404558879261438,-2.18087531346393,-0.882292472623907,0.882292472623907,2
+"Otariinae","B392","binary_aquatic_dependence","CACNA1G",99,"Ion channels / mechanosensation / membrane signaling",0.593854706123962,-1.36052119398748,-0.80795191383086,0.80795191383086,3
+"Otariinae","B392","binary_aquatic_dependence","PDGFB",5,"Vascular / hematologic regulation",-0.348561123284862,1.90195349480841,-0.66294704658599,0.66294704658599,4
+"Otariinae","B392","binary_aquatic_dependence","OMP",92,"Sensory systems",0.231144543648012,2.28644775984868,0.528499924025243,0.528499924025243,5
+"Otariinae","B392","binary_aquatic_dependence","PUSL1",6,"Metabolism / redox / lipid handling",-0.314220898750119,-1.658852287477,0.521246056664714,0.521246056664714,6
+"Otariinae","B392","binary_aquatic_dependence","SPEF2",85,"Cilia / flagella / reproductive-cell function",0.174059525751515,2.68340474849165,0.467072157921821,0.467072157921821,7
+"Otariinae","B392","marine","MYH7B",67,"Cytoskeletal / muscle / ECM / adhesion",0.397856553371577,3.8175256411827,1.51882759400857,1.51882759400857,1
+"Otariinae","B392","marine","MYH13",70,"Cytoskeletal / muscle / ECM / adhesion",0.480299625271563,2.11524625248677,1.01595198242647,1.01595198242647,2
+"Otariinae","B392","marine","EPOR",1,"Vascular / hematologic regulation",-0.562386788005208,-1.79609739748767,1.0101014463176,1.0101014463176,3
+"Otariinae","B392","marine","CAPN14",63,"Epithelial / body-surface interface",0.342438899161804,2.81485196360131,0.963914807719074,0.963914807719074,4
+"Otariinae","B392","marine","OMP",64,"Sensory systems",0.345615697623917,2.28401197045801,0.789390390551221,0.789390390551221,5
+"Otariinae","B392","marine","SSTR4",52,"Endocrine / circadian / systemic regulation",0.137940410562783,4.12200465395837,0.56859101430872,0.56859101430872,6
+"Otariinae","B392","marine","WDR93",8,"Cilia / flagella / reproductive-cell function",-0.242927446164409,-1.96092042820439,0.47636139175531,0.47636139175531,7
+"Otarioidea","B394","binary_aquatic_dependence","PER1",100,"Endocrine / circadian / systemic regulation",0.784004329488712,1.30825562743724,1.02567807598877,1.02567807598877,1
+"Otarioidea","B394","binary_aquatic_dependence","CACNA1G",99,"Ion channels / mechanosensation / membrane signaling",0.593854706123962,0.950106931070025,0.564225472336929,0.564225472336929,2
+"Otarioidea","B394","binary_aquatic_dependence","FAM20B",28,"Developmental / transcriptional signaling regulators",-0.149046125022571,2.66112402284671,-0.396630223809778,0.396630223809778,3
+"Otarioidea","B394","binary_aquatic_dependence","ATF7IP2",1,"DNA repair / chromatin / cell-cycle",-0.581769927151342,0.548589360018638,-0.319152792014044,0.319152792014044,4
+"Otarioidea","B394","binary_aquatic_dependence","NLRP8",11,"Immune / inflammatory regulation",-0.249357601464042,-1.1910993312489,0.297009672345651,0.297009672345651,5
+"Otarioidea","B394","binary_aquatic_dependence","SYTL5",93,"Membrane trafficking / ER / vesicle processing",0.265993756746688,-1.02446507838628,-0.272501314855755,0.272501314855755,6
+"Otarioidea","B394","binary_aquatic_dependence","CORO2A",34,"Cytoskeletal / muscle / ECM / adhesion",-0.110434776748237,2.43830145314571,-0.269273276623049,0.269273276623049,7
+"Otarioidea","B394","marine","SDR9C7",68,"Epithelial / body-surface interface",0.409389888665918,0.750207581006501,0.307127398064579,0.307127398064579,1
+"Otarioidea","B394","marine","EPOR",1,"Vascular / hematologic regulation",-0.562386788005208,-0.502524437345524,0.282613104212874,0.282613104212874,2
+"Otarioidea","B394","marine","KCNK18",69,"Ion channels / mechanosensation / membrane signaling",0.43928773003255,0.594147181232109,0.261001566548691,0.261001566548691,3
+"Otarioidea","B394","marine","TPX2",2,"DNA repair / chromatin / cell-cycle",-0.547364151458345,-0.455774825923789,0.24947480084785,0.24947480084785,4
+"Otarioidea","B394","marine","CATSPERZ",6,"Cilia / flagella / reproductive-cell function",-0.264244206101874,0.872783786529336,-0.230628058770032,0.230628058770032,5
+"Otarioidea","B394","marine","KRTDAP",66,"Epithelial / body-surface interface",0.386565925079529,-0.546341259339231,-0.211196914325585,0.211196914325585,6
+"Otarioidea","B394","marine","SYDE1",4,"Cytoskeletal / muscle / ECM / adhesion",-0.314258007626709,0.659397489303723,-0.207220941222642,0.207220941222642,7
+"Phocidae","B409","binary_aquatic_dependence","TGM3",101,"Epithelial / body-surface interface",1.04080869919882,3.49677302526257,3.63947178381704,3.63947178381704,1
+"Phocidae","B409","binary_aquatic_dependence","PER1",100,"Endocrine / circadian / systemic regulation",0.784004329488712,1.30067151278296,1.01973209726447,1.01973209726447,2
+"Phocidae","B409","binary_aquatic_dependence","ACADSB",14,"Metabolism / redox / lipid handling",-0.238865076823398,2.32662040107206,-0.555748360840961,0.555748360840961,3
+"Phocidae","B409","binary_aquatic_dependence","SYTL5",93,"Membrane trafficking / ER / vesicle processing",0.265993756746688,1.63931981231984,0.43604883538823,0.43604883538823,4
+"Phocidae","B409","binary_aquatic_dependence","PMIS2",3,"Developmental / transcriptional signaling regulators",-0.39072525213697,-1.11454446072728,0.435480665435529,0.435480665435529,5
+"Phocidae","B409","binary_aquatic_dependence","OMP",92,"Sensory systems",0.231144543648012,1.6681111244486,0.385574784614844,0.385574784614844,6
+"Phocidae","B409","binary_aquatic_dependence","C16orf91",9,"Unassigned / low-confidence",-0.262195862787636,1.43644720049197,-0.376630513081876,0.376630513081876,7
+"Phocidae","B409","marine","TGM3",71,"Epithelial / body-surface interface",0.691315381170856,3.57042173251485,2.46828746095421,2.46828746095421,1
+"Phocidae","B409","marine","OMP",64,"Sensory systems",0.345615697623917,1.66207879005841,0.574440520531954,0.574440520531954,2
+"Phocidae","B409","marine","SYDE1",4,"Cytoskeletal / muscle / ECM / adhesion",-0.314258007626709,-1.55789320285591,0.489580414024693,0.489580414024693,3
+"Phocidae","B409","marine","MYH7B",67,"Cytoskeletal / muscle / ECM / adhesion",0.397856553371577,1.16725334090979,0.464399391125826,0.464399391125826,4
+"Phocidae","B409","marine","SDR9C7",68,"Epithelial / body-surface interface",0.409389888665918,-0.993922458336688,-0.406901804561013,0.406901804561013,5
+"Phocidae","B409","marine","KCNK18",69,"Ion channels / mechanosensation / membrane signaling",0.43928773003255,0.820522409648946,0.360445426775523,0.360445426775523,6
+"Phocidae","B409","marine","NKPD1",58,"Unassigned / low-confidence",0.230941713295598,1.47283747607586,0.340139610130923,0.340139610130923,7
+"Sirenia","B26","binary_aquatic_dependence","TGM3",101,"Epithelial / body-surface interface",1.04080869919882,1.41161122774524,1.46921724572396,1.46921724572396,1
+"Sirenia","B26","binary_aquatic_dependence","ATF7IP2",1,"DNA repair / chromatin / cell-cycle",-0.581769927151342,-0.925599796246078,0.538486126033378,0.538486126033378,2
+"Sirenia","B26","binary_aquatic_dependence","IL33",94,"Immune / inflammatory regulation",0.340038935001018,1.45973400354367,0.496366395949764,0.496366395949764,3
+"Sirenia","B26","binary_aquatic_dependence","LRP2",98,"Transport / endocytic / epithelial solute handling",0.471378525654808,0.823076261926727,0.387980474848491,0.387980474848491,4
+"Sirenia","B26","binary_aquatic_dependence","SLC5A5",19,"Transport / endocytic / epithelial solute handling",-0.231105741131879,1.48413506329796,-0.342992133743284,0.342992133743284,5
+"Sirenia","B26","binary_aquatic_dependence","PER1",100,"Endocrine / circadian / systemic regulation",0.784004329488712,0.381905226772711,0.299415351244174,0.299415351244174,6
+"Sirenia","B26","binary_aquatic_dependence","SDR9C7",91,"Epithelial / body-surface interface",0.220181989308241,1.22242504407907,0.269155977985545,0.269155977985545,7
+"Sirenia","B26","marine","TGM3",71,"Epithelial / body-surface interface",0.691315381170856,1.44715490822502,1.00044044699286,1.00044044699286,1
+"Sirenia","B26","marine","SDR9C7",68,"Epithelial / body-surface interface",0.409389888665918,1.25606266589364,0.514219354947612,0.514219354947612,2
+"Sirenia","B26","marine","IL33",59,"Immune / inflammatory regulation",0.27044270721607,1.49209879308934,0.403527237036912,0.403527237036912,3
+"Sirenia","B26","marine","TPX2",2,"DNA repair / chromatin / cell-cycle",-0.547364151458345,0.727193324653712,-0.398039557095252,0.398039557095252,4
+"Sirenia","B26","marine","EPOR",1,"Vascular / hematologic regulation",-0.562386788005208,0.57567988554124,-0.323754761748744,0.323754761748744,5
+"Sirenia","B26","marine","VEPH1",13,"Developmental / transcriptional signaling regulators",-0.163677799839901,1.66316646075573,-0.272223427064013,0.272223427064013,6
+"Sirenia","B26","marine","CD34",9,"Vascular / hematologic regulation",-0.231912055829233,1.11193508043678,-0.257871150452738,0.257871150452738,7

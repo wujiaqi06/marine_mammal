@@ -21,11 +21,3 @@ gene2249 <- scan("all_tree.2249.success.txt", "characters")
 
 failed26 <- setdiff(gene2275,gene2249)
 write.table(failed26, file = "failed26.list.txt", quote = F, row.names = F, col.names = F)
-  
-  
-  
-  
-  
-  
-  
-)
