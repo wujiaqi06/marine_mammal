@@ -1,4 +1,4 @@
-# Marine mammal genome evolution: Reproducibility package
+# Marine mammal genome evolution: NC reproducibility package
 
 This repository contains the custom source code, lightweight source data,
 documentation, branch-label metadata and validation checks for the marine
