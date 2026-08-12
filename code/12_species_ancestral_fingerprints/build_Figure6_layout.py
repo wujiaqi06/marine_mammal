@@ -33,13 +33,13 @@ from matplotlib.patches import FancyBboxPatch
 PACKAGE_ROOT = Path(__file__).resolve().parents[2]
 SOURCE_ROOT = Path(
     os.environ.get(
-        "MARINE_MAMMAL_NC_FIG6_SOURCE_ROOT",
+        "MARINE_MAMMAL_FIG6_SOURCE_ROOT",
         PACKAGE_ROOT / "source_data" / "Fig6_species_ancestral_fingerprints",
     )
 ).expanduser().resolve()
 OUT = Path(
     os.environ.get(
-        "MARINE_MAMMAL_NC_FIG6_OUTPUT",
+        "MARINE_MAMMAL_FIG6_OUTPUT",
         PACKAGE_ROOT / "reproduction_outputs" / "Figure6",
     )
 ).expanduser().resolve()
@@ -761,7 +761,7 @@ def write_notes(panel_a: pd.DataFrame, panel_bc: pd.DataFrame) -> None:
 
 def package_outputs() -> Path:
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    pkg_name = f"MarineMammal_NC_Figure6_reproduction_{timestamp}"
+    pkg_name = f"MarineMammal_Figure6_reproduction_{timestamp}"
     pkg_dir = REVIEW_ROOT / pkg_name
     if pkg_dir.exists():
         shutil.rmtree(pkg_dir)

@@ -1,6 +1,6 @@
 # Remaining release actions
 
-The GitHub NC code release is versioned as `v1.1-nc-submission`; the previous
+The GitHub code release is versioned as `v1.1-analysis-update`; the previous
 `v1.0-endpoint-fix` baseline remains immutable.
 
 The remaining author-controlled public-release action is to release Dryad DOI

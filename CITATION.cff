@@ -4,7 +4,7 @@ title: "Marine mammal endpoint-fix reproducibility code package"
 authors:
   - family-names: Wu
     given-names: Jiaqi
-date-released: 2026-07-09
-version: "v1.0-endpoint-fix"
+date-released: 2026-08-12
+version: "v1.1-analysis-update"
 repository-code: "https://github.com/wujiaqi06/marine_mammal"
 license: "MIT"

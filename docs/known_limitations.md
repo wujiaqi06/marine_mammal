@@ -7,6 +7,6 @@
 - Dryad DOI is reserved as https://doi.org/10.5061/dryad.dz08kpsd4; Dryad public
   release is pending manuscript publication, and reviewers should use the private
   Dryad link provided in the manuscript during peer review.
-- GitHub tag `v1.1-nc-submission` contains the NC Fig. 6/Fig. S3 code, lightweight Source Data and reproducibility checks; `v1.0-endpoint-fix` remains the immutable baseline.
+- GitHub tag `v1.1-analysis-update` contains the Fig. 6/Fig. S3 code, lightweight Source Data and reproducibility checks; `v1.0-endpoint-fix` remains the immutable baseline.
 - Lightweight figure scripts regenerate source-consistent drafts. Final manuscript typography and panel spacing were adjusted in Adobe Illustrator.
 - Internal-branch projections are descriptive genomic-profile projections and not ancestral habitat assignments or held-out validation estimates.

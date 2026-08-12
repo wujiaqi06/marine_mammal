@@ -10,9 +10,10 @@ if (!nzchar(root_value)) {
 }
 root_dir <- normalizePath(root_value, mustWork = TRUE)
 output_root <- Sys.getenv(
-  "MARINE_MAMMAL_NC_OUTPUT_ROOT",
-  unset = file.path(root_dir, "analysis_nc_arc")
+  "MARINE_MAMMAL_OUTPUT_ROOT",
+  unset = file.path(root_dir, "reproduction_outputs")
 )
+archive_root <- Sys.getenv("MARINE_MAMMAL_ARCHIVE_ROOT", unset = output_root)
 out_dir <- file.path(output_root, "figure6_fullData_fingerprints")
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
@@ -30,7 +31,7 @@ paths <- list(
   archived_coef = file.path(root_dir, "10_reviewer_risk_controls", "12A_corrected_preprocessing_LASSO_architecture_sensitivity", "corrected_coefficients", "corrected_preprocessing_full_data_coefficients_all_runs.tsv"),
   fig4_architecture = file.path(root_dir, "10_reviewer_risk_controls", "13_Figure4_Figure5_evidence_alignment", "Figure4_corrected_full_data", "Figure4_corrected_coefficient_architecture.tsv"),
   table_s5 = file.path(root_dir, "supplementary_tables_endpointfix", "TableS5", "Supplementary_Table_S5_Figure4C_predictor_annotation.tsv"),
-  terminal_oof = file.path(root_dir, "analysis_nc_arc", "terminal_oof_predictions.csv")
+  terminal_oof = file.path(archive_root, "terminal_oof_predictions.csv")
 )
 missing <- names(paths)[!file.exists(unlist(paths))]
 if (length(missing) > 0) stop("Missing required inputs: ", paste(missing, collapse = ", "))

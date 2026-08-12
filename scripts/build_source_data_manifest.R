@@ -18,10 +18,10 @@ files <- files[basename(files) != "README.md"]
 files <- sort(files)
 
 rel <- sub(paste0("^", root, "/"), "", files, fixed = FALSE)
-is_nc <- grepl("^source_data/(Fig6_species_ancestral_fingerprints|FigS3_ancestor_fingerprints)/", rel)
+is_extended <- grepl("^source_data/(Fig6_species_ancestral_fingerprints|FigS3_ancestor_fingerprints)/", rel)
 notes <- ifelse(
-  is_nc,
-  "Current NC lightweight Source Data copied from reviewed Fig. 6/Fig. S3 analysis outputs; scientific values unchanged",
+  is_extended,
+  "Current extended lightweight Source Data copied from reviewed Fig. 6/Fig. S3 analysis outputs; scientific values unchanged",
   "Lightweight source data mirrored from Dryad package; local source paths scrubbed to public tokens where present"
 )
 

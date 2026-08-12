@@ -12,11 +12,11 @@ file_arg <- grep("^--file=", args_full, value = TRUE)
 script_file <- if (length(file_arg)) sub("^--file=", "", file_arg[[1]]) else "."
 package_root <- normalizePath(file.path(dirname(script_file), "..", ".."), mustWork = TRUE)
 source_root <- Sys.getenv(
-  "MARINE_MAMMAL_NC_SOURCE_ROOT",
+  "MARINE_MAMMAL_FIGS3_SOURCE_ROOT",
   unset = file.path(package_root, "source_data", "FigS3_ancestor_fingerprints")
 )
 out_dir <- Sys.getenv(
-  "MARINE_MAMMAL_NC_FIGURES3_OUTPUT",
+  "MARINE_MAMMAL_FIGS3_OUTPUT",
   unset = file.path(package_root, "reproduction_outputs", "FigureS3")
 )
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
@@ -24,7 +24,7 @@ dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 fp_file <- file.path(source_root, "SourceData_FigS3_ancestor_fingerprints_long.csv")
 profile_file <- file.path(source_root, "SourceData_FigS3_ancestor_profile_scores.csv")
 if (!file.exists(fp_file) || !file.exists(profile_file)) {
-  stop("Fig. S3 source tables are missing. Set MARINE_MAMMAL_NC_SOURCE_ROOT if they are stored elsewhere.")
+  stop("Fig. S3 source tables are missing. Set MARINE_MAMMAL_FIGS3_SOURCE_ROOT if they are stored elsewhere.")
 }
 
 fp <- read.csv(fp_file, stringsAsFactors = FALSE, check.names = FALSE)

@@ -1,4 +1,4 @@
-# NC software-submission QC report
+# Public reproducibility release QC report
 
 Generated: 2026-08-06 17:51 JST
 
@@ -6,12 +6,12 @@ Generated: 2026-08-06 17:51 JST
 
 - Baseline repository commit: `21e5e046c04e08474d21a11153262ca5778c9baa`.
 - Public baseline tag: `v1.0-endpoint-fix`.
-- NC release identifier: `v1.1-nc-submission`.
-- Working branch used to prepare the NC release: `codex/nc-software-checklist`.
-- The editor/reviewer ZIP adds current NC Fig. 6/Fig. S3 scripts and lightweight
-  Source Data; these are also the additions carried by the NC release.
+- Public release identifier: `v1.1-analysis-update`.
+- Working branch used to prepare the release: `codex/release-preparation`.
+- The review package adds current Fig. 6/Fig. S3 scripts and lightweight
+  Source Data; these are also the additions carried by the analysis update.
 - No GBI, ASR, t-test/FDR, LASSO, enrichment or permutation analysis was rerun.
-- Checklist verdict: **READY FOR EDITOR/REVIEWER ZIP**. This is a software-
+- Checklist verdict: **READY FOR EXTERNAL REPRODUCIBILITY REVIEW**. This is a software-
   packaging/reproducibility verdict, not a scientific approval.
 
 ## Tested environment
@@ -30,7 +30,7 @@ Generated: 2026-08-06 17:51 JST
 - All copied Python files compile: PASS.
 - All copied/new R files parse: PASS.
 - Source-data manifest: 46 files, hashes current: PASS.
-- NC reviewed-source provenance: 12/12 files match locked SHA-256 values: PASS.
+- reviewed-source provenance: 12/12 files match locked SHA-256 values: PASS.
 
 R emitted locale warnings because the isolated shell did not provide
 `C.UTF-8`; these warnings did not change output or exit status.
@@ -50,10 +50,10 @@ Matplotlib cache requires no workaround.
 
 ## Scientific-source preservation
 
-The 12 NC source files under the Fig. 6 and Fig. S3 Source Data directories are
-byte-identical to reviewed `analysis_nc_arc` outputs. Their relative source
+The 12 reviewed source files under the Fig. 6 and Fig. S3 Source Data directories are
+byte-identical to reviewed `reproduction_outputs` outputs. Their relative source
 paths and hashes are recorded in
-`data_manifest/NC_source_data_provenance.tsv`. Renaming only reflects the
+`data_manifest/species_ancestral_source_data_provenance.tsv`. Renaming only reflects the
 current manuscript figure numbers.
 
 Fig. 6A internal rows and Fig. S3 internal-branch fingerprints remain distinct
@@ -86,7 +86,7 @@ Rechecked on 2026-08-07 JST before the author-controlled remote release:
 - `bash demo/run_demo.sh`: PASS, real time 0.65 s.
 - `bash tests/smoke_tests/run_all.sh`: PASS, real time 1.12 s.
 - Source-data manifest: 46/46 files current.
-- NC reviewed-source provenance: 12/12 SHA-256 values matched.
+- reviewed-source provenance: 12/12 SHA-256 values matched.
 - Portable branch-label converter: all 601 columns mapped to the manuscript
   old-label order; literal `NA` values retained.
 - Distributed syntax: zero R, Python or Perl failures.

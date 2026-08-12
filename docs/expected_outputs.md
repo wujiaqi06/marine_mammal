@@ -11,7 +11,7 @@ bash demo/run_demo.sh
 Expected final lines:
 
 ```text
-PASS NC source-data checks
+PASS extended source-data checks
 PASS source data files present
 PASS trait table row count = 302
 PASS Fig5B public values found
@@ -20,7 +20,7 @@ PASS demo output matches locked expected output
 ```
 
 The generated `demo/output/demo_summary.tsv` must be byte-identical to
-`demo/expected_output/demo_summary.tsv`. The expected NC-specific locks are:
+`demo/expected_output/demo_summary.tsv`. The expected current-release locks are:
 
 - Fig. 6A source rows: 22.
 - Fig. 6B/C terminal portraits: 6.

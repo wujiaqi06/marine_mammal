@@ -1,10 +1,10 @@
-# Marine mammal genome evolution: NC reproducibility package
+# Marine mammal genome evolution: reproducibility package
 
 This repository contains the custom source code, lightweight source data,
-documentation, branch-label metadata and validation checks for the marine
-mammal genome-evolution manuscript submitted to *Nature Communications*.
-Release `v1.1-nc-submission` extends the frozen `v1.0-endpoint-fix` analysis
-baseline with the current NC Fig. 6 species/ancestral projections,
+documentation, branch-label metadata and validation checks for marine mammal
+genome-evolution analyses.
+Release `v1.1-analysis-update` extends the frozen `v1.0-endpoint-fix` analysis
+baseline with the current Fig. 6 species/ancestral projections,
 Supplementary Fig. S3 ancestral fingerprints and reviewer-facing
 reproducibility checks. Scientific values from the endpoint-fix analysis are unchanged.
 
@@ -24,12 +24,12 @@ large Dryad matrices.
 
 ```bash
 # From GitHub:
-git clone --branch v1.1-nc-submission --depth 1 \
+git clone --branch v1.1-analysis-update --depth 1 \
   https://github.com/wujiaqi06/marine_mammal.git
 cd marine_mammal
 bash demo/run_demo.sh
 
-# Or, from the journal editor/reviewer ZIP, enter its marine_mammal directory:
+# Or, from the downloaded review package, enter its marine_mammal directory:
 cd marine_mammal
 bash demo/run_demo.sh
 ```
@@ -37,17 +37,17 @@ bash demo/run_demo.sh
 Expected final lines:
 
 ```text
-PASS NC source-data checks
+PASS extended source-data checks
 PASS demo output matches locked expected output
 ```
 
-The demo verifies the main endpoint-fix source tables and the current NC
+The demo verifies the main endpoint-fix source tables and the current
 Fig. 6/Fig. S3 source tables. On the tested desktop it completes in less than
 5 seconds after R is available. See `demo/README.md` for the generated output.
 
 The public repository is <https://github.com/wujiaqi06/marine_mammal>.
 Tag `v1.0-endpoint-fix` preserves the endpoint-fix baseline. Tag
-`v1.1-nc-submission` adds the current Fig. 6 and Supplementary Fig. S3 code,
+`v1.1-analysis-update` adds the current Fig. 6 and Supplementary Fig. S3 code,
 lightweight Source Data and reviewer-facing reproducibility checks without
 changing the endpoint-fix scientific outputs.
 
@@ -73,7 +73,7 @@ changing the endpoint-fix scientific outputs.
 The full upstream tree, BaseML, SplitAligner and nested-LASSO workflows are
 compute- and storage-intensive. They are not the desktop demo: use a multicore
 Unix-like workstation or cluster and allow workflow-specific hours to days.
-The submitted analyses used up to 12 CPU cores where parallel execution was
+The analyses used up to 12 CPU cores where parallel execution was
 implemented.
 
 ## Installation
@@ -105,13 +105,13 @@ writable cache directory, for example:
 ```bash
 mkdir -p /tmp/marine_mammal_mpl
 MPLBACKEND=Agg MPLCONFIGDIR=/tmp/marine_mammal_mpl \
-  python3 code/12_NC_species_ancestral_fingerprints/build_Figure6_layout.py
+  python3 code/12_species_ancestral_fingerprints/build_Figure6_layout.py
 ```
 
 ## Demonstration dataset and expected output
 
 `source_data/` contains small real tables supporting the manuscript figures.
-The NC additions are:
+The current additions are:
 
 - `source_data/Fig6_species_ancestral_fingerprints/`
 - `source_data/FigS3_ancestor_fingerprints/`
@@ -128,7 +128,8 @@ aquatic-dependence predictors and 13 ancestral profiles in Fig. S3.
 
    ```bash
    export MARINE_MAMMAL_ENDPOINTFIX_ROOT=/path/to/unpacked_endpointfix_project
-   export MARINE_MAMMAL_NC_OUTPUT_ROOT=/path/to/reproduction_outputs
+   export MARINE_MAMMAL_ARCHIVE_ROOT=/path/to/unpacked/reviewed_analysis_outputs
+   export MARINE_MAMMAL_OUTPUT_ROOT=/path/to/reproduction_outputs
    ```
 
 3. Follow `docs/reproduction_guide.md` and `docs/reproduce_map.tsv` for the

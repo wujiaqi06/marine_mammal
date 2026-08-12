@@ -1,7 +1,7 @@
 # Reproduction guide
 
 This repository contains the public code side of the marine mammal endpoint-fix
-analysis package for the Nature Communications submission. Large input and
+analysis package for the marine mammal genome-evolution study. Large input and
 output matrices are not stored in GitHub; they are deposited in Dryad under DOI
 https://doi.org/10.5061/dryad.dz08kpsd4.
 
@@ -11,7 +11,8 @@ https://doi.org/10.5061/dryad.dz08kpsd4.
    Dryad dataset is not needed.
 2. For full reproduction, download and unpack the paired Dryad dataset and set
    `MARINE_MAMMAL_ENDPOINTFIX_ROOT` to the reconstructed endpoint-fix project
-   root. Set `MARINE_MAMMAL_NC_OUTPUT_ROOT` to a writable output directory.
+   root. Set `MARINE_MAMMAL_ARCHIVE_ROOT` to the restored analysis-output
+   directory and `MARINE_MAMMAL_OUTPUT_ROOT` to a writable output directory.
 3. `config/example_paths.yaml` documents the expected path roles, but scripts
    read environment variables and do not parse the YAML file.
 4. Inspect `docs/reproduce_map.tsv` to map manuscript values to source files.
@@ -36,7 +37,8 @@ Example:
 
 ```bash
 export MARINE_MAMMAL_ENDPOINTFIX_ROOT=/path/to/unpacked_endpointfix_project
-export MARINE_MAMMAL_NC_OUTPUT_ROOT=/path/to/reproduction_outputs
+export MARINE_MAMMAL_ARCHIVE_ROOT=/path/to/unpacked/reviewed_analysis_outputs
+export MARINE_MAMMAL_OUTPUT_ROOT=/path/to/reproduction_outputs
 bash tests/smoke_tests/run_all.sh
 ```
 
@@ -58,7 +60,7 @@ The curated code directories are under `code/`:
 - `08_Figure4_Figure5_alignment`, `09_corrected_full_data_LASSO_architecture`
   and `11_figure_generation`: full-data architecture summaries, figure source
   tables and plotting scripts.
-- `12_NC_species_ancestral_fingerprints`: current NC Fig. 6 terminal/internal
+- `12_species_ancestral_fingerprints`: current Fig. 6 terminal/internal
   projections and Fig. S3 ancestral-branch fingerprint source and artwork
   scripts.
 
@@ -72,9 +74,9 @@ These commands use bundled data only and do not rerun GBI, ASR, t-tests or
 LASSO fitting:
 
 ```bash
-python3 code/12_NC_species_ancestral_fingerprints/build_Figure6A_projection_profiles.py
-python3 code/12_NC_species_ancestral_fingerprints/build_Figure6_layout.py
-Rscript code/12_NC_species_ancestral_fingerprints/build_FigureS3_two_column.R
+python3 code/12_species_ancestral_fingerprints/build_Figure6A_projection_profiles.py
+python3 code/12_species_ancestral_fingerprints/build_Figure6_layout.py
+Rscript code/12_species_ancestral_fingerprints/build_FigureS3_two_column.R
 ```
 
 They write source-consistent draft artwork under `reproduction_outputs/`.
@@ -82,15 +84,15 @@ Final manuscript typography was adjusted in Adobe Illustrator, so raster/vector
 layout details need not be byte-identical to the submitted artwork; plotted
 scientific values are locked to the bundled source tables.
 
-## Full NC Fig. 6 / Fig. S3 data regeneration
+## Full Fig. 6 / Fig. S3 data regeneration
 
 After restoring the endpoint-fix project structure from Dryad, run the scripts
 below in order. They use the environment-controlled project and output roots:
 
 ```bash
-Rscript code/12_NC_species_ancestral_fingerprints/run_nc_arc_terminal_only_projection.R
-Rscript code/12_NC_species_ancestral_fingerprints/build_fullData_fingerprints.R
-Rscript code/12_NC_species_ancestral_fingerprints/build_FigureS3_ancestor_fingerprints.R
+Rscript code/12_species_ancestral_fingerprints/run_terminal_only_projection.R
+Rscript code/12_species_ancestral_fingerprints/build_fullData_fingerprints.R
+Rscript code/12_species_ancestral_fingerprints/build_FigureS3_ancestor_fingerprints.R
 ```
 
 The first script regenerates the terminal-only projection layer. The second

@@ -1,6 +1,6 @@
-# NC code porting changes
+# Species and ancestral fingerprint code porting changes
 
-The NC Fig. 6/Fig. S3 scripts were copied from the reviewed `analysis_nc_arc`
+The Fig. 6/Fig. S3 scripts were copied from the reviewed `reproduction_outputs`
 work area and changed only for public-package portability and current output
 naming. The changes were:
 
@@ -23,5 +23,5 @@ scientific data for this package.
 
 No coefficients, selected predictor sets, GBI values, branch IDs, profile
 coordinates or plotted Source Data were edited. Byte identity of the 12 copied
-NC scientific source files is recorded in
-`data_manifest/NC_source_data_provenance.tsv`.
+reviewed scientific source files is recorded in
+`data_manifest/species_ancestral_source_data_provenance.tsv`.

@@ -11,8 +11,8 @@ if (!nzchar(root_value)) {
 }
 root_dir <- normalizePath(root_value, mustWork = TRUE)
 work_dir <- Sys.getenv(
-  "MARINE_MAMMAL_NC_OUTPUT_ROOT",
-  unset = file.path(root_dir, "analysis_nc_arc")
+  "MARINE_MAMMAL_OUTPUT_ROOT",
+  unset = file.path(root_dir, "reproduction_outputs")
 )
 out_dir <- file.path(work_dir, "terminal_only_projection")
 qc_dir <- file.path(work_dir, "qc")

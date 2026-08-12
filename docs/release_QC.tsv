@@ -14,9 +14,9 @@ reproduction_instructions_present	PASS	docs/reproduction_guide.md and reproduce_
 license_present	PASS	MIT for study-authored code; external data not relicensed.
 repository_link_present	PASS	https://github.com/wujiaqi06/marine_mammal.
 code_function_description_location	PASS	Manuscript Methods plus workflow/reproduction docs and code READMEs.
-current_NC_code_in_zip	PASS	code/12_NC_species_ancestral_fingerprints.
-current_NC_source_data_in_zip	PASS	Fig6 and FigS3 source_data directories.
-NC_source_hash_identity	PASS	12 of 12 copied scientific source files match reviewed hashes.
+current_release_code	PASS	code/12_species_ancestral_fingerprints.
+current_release_source_data	PASS	Fig6 and FigS3 source_data directories.
+reviewed_source_hash_identity	PASS	12 of 12 copied scientific source files match reviewed hashes.
 source_manifest_current	PASS	46 source-data files verified.
 local_absolute_paths_absent	PASS	Zero distributable-tree hits.
 forbidden_legacy_values_absent	PASS	Zero public-facing hits.
@@ -25,5 +25,5 @@ files_over_100MB_absent	PASS	Zero files over 100 MB outside .git.
 distributed_script_syntax	PASS	All distributed R scripts parse; Python scripts compile; Perl scripts pass perl -c.
 private_reviewer_link_absent	PASS	Private Dryad URL intentionally excluded.
 public_endpointfix_tag_exists	PASS	v1.0-endpoint-fix at baseline commit.
-updated_NC_public_tag	PASS	v1.1-nc-submission carries the NC Fig. 6/Fig. S3 code, lightweight Source Data and reproducibility checks.
+updated_public_tag	PASS	v1.1-analysis-update carries the Fig. 6/Fig. S3 code, lightweight Source Data and reproducibility checks.
 Dryad_public_release	PENDING_PUBLICATION	Reserved DOI present; reviewers use manuscript/editorial private link.

@@ -6,7 +6,7 @@ out_file <- if (length(out_arg)) sub("^--output=", "", out_arg[[1]]) else "demo/
 
 args_full <- commandArgs(FALSE)
 file_arg <- grep("^--file=", args_full, value = TRUE)
-script_file <- if (length(file_arg)) sub("^--file=", "", file_arg[[1]]) else "demo/check_nc_source_data.R"
+script_file <- if (length(file_arg)) sub("^--file=", "", file_arg[[1]]) else "demo/check_extended_source_data.R"
 root <- normalizePath(file.path(dirname(script_file), ".."), mustWork = TRUE)
 
 read_csv <- function(path) utils::read.csv(path, stringsAsFactors = FALSE, check.names = FALSE)
@@ -62,4 +62,4 @@ summary <- data.frame(
 
 dir.create(dirname(out_file), recursive = TRUE, showWarnings = FALSE)
 utils::write.table(summary, out_file, sep = "\t", quote = FALSE, row.names = FALSE)
-writeLines("PASS NC source-data checks")
+writeLines("PASS extended source-data checks")

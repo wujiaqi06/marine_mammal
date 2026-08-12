@@ -5,9 +5,9 @@
 Recommended contents: code, lightweight source data, manifests, expected-count
 smoke tests, documentation, and checksums.
 
-Current NC release tag: `v1.1-nc-submission`. The immutable
-`v1.0-endpoint-fix` tag remains available as the endpoint-fix baseline. The NC
-release adds current Fig. 6/Fig. S3 code, lightweight Source Data and
+Current release tag: `v1.1-analysis-update`. The immutable
+`v1.0-endpoint-fix` tag remains available as the endpoint-fix baseline. The
+analysis update adds current Fig. 6/Fig. S3 code, lightweight Source Data and
 reviewer-facing reproducibility checks.
 
 ## Data archive

@@ -7,8 +7,9 @@ output_root: /path/to/local/reproduction_outputs
 
 environment_variable_mapping:
   MARINE_MAMMAL_ENDPOINTFIX_ROOT: /path/to/unpacked_endpointfix_project
-  MARINE_MAMMAL_NC_OUTPUT_ROOT: /path/to/local/reproduction_outputs
-  MARINE_MAMMAL_NC_FIG6_SOURCE_ROOT: /path/to/lightweight/Fig6/source_data
-  MARINE_MAMMAL_NC_FIG6_OUTPUT: /path/to/local/Figure6/output
-  MARINE_MAMMAL_NC_SOURCE_ROOT: /path/to/lightweight/FigS3/source_data
-  MARINE_MAMMAL_NC_FIGURES3_OUTPUT: /path/to/local/FigureS3/output
+  MARINE_MAMMAL_ARCHIVE_ROOT: /path/to/unpacked/reviewed_analysis_outputs
+  MARINE_MAMMAL_OUTPUT_ROOT: /path/to/local/reproduction_outputs
+  MARINE_MAMMAL_FIG6_SOURCE_ROOT: /path/to/lightweight/Fig6/source_data
+  MARINE_MAMMAL_FIG6_OUTPUT: /path/to/local/Figure6/output
+  MARINE_MAMMAL_FIGS3_SOURCE_ROOT: /path/to/lightweight/FigS3/source_data
+  MARINE_MAMMAL_FIGS3_OUTPUT: /path/to/local/FigureS3/output

@@ -1,6 +1,6 @@
-# Nature Research Code and Software Submission Checklist
+# Code and software reproducibility checklist
 
-Status refers to this NC editor/reviewer ZIP, not to a future public tag.
+Status refers to this review package, not to a future public tag.
 
 | Checklist item | Status | Package evidence |
 |---|---|---|
@@ -13,11 +13,11 @@ Status refers to this NC editor/reviewer ZIP, not to a future public tag.
 | Typical installation time | PASS | Approximately 5-15 minutes for R/Python dependencies on a normal networked desktop; checkout/unpack is normally under 1 minute. |
 | Demo run instructions | PASS | `bash demo/run_demo.sh`. |
 | Demo expected output | PASS | `demo/expected_output/demo_summary.tsv` and `docs/expected_outputs.md`. |
-| Typical demo run time | PASS | Less than 5 seconds after R is available on the tested desktop; exact package-preparation timing is recorded in `docs/NC_software_submission_command_log.tsv`. |
+| Typical demo run time | PASS | Less than 5 seconds after R is available on the tested desktop; exact package-preparation timing is recorded in `docs/release_command_log.tsv`. |
 | Instructions for users' own data | PASS | `README.md` and the adapting-to-other-data section of `docs/reproduction_guide.md`. |
 | Reproduction instructions | PASS | Stage map in `docs/reproduction_guide.md`, `docs/reproduce_map.tsv`, script READMEs and Dryad manifest. |
 | License | PASS | MIT License for study-authored code. External TOGA/Hiller data are neither redistributed nor relicensed. |
-| Open repository link | PASS | <https://github.com/wujiaqi06/marine_mammal>; NC release tag `v1.1-nc-submission`. The immutable endpoint-fix baseline remains available as `v1.0-endpoint-fix`. |
+| Open repository link | PASS | <https://github.com/wujiaqi06/marine_mammal>; release tag `v1.1-analysis-update`. The immutable endpoint-fix baseline remains available as `v1.0-endpoint-fix`. |
 | Detailed code-function description / pseudocode location | PASS | Manuscript Methods plus `docs/workflow_overview.md`, `docs/reproduction_guide.md`, `docs/reproduce_map.tsv` and per-stage code READMEs. |
 
 The paired Dryad DOI is <https://doi.org/10.5061/dryad.dz08kpsd4>. Public

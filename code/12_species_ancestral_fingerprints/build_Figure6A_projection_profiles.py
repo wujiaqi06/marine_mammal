@@ -29,13 +29,13 @@ from matplotlib.patches import FancyBboxPatch
 PACKAGE_ROOT = Path(__file__).resolve().parents[2]
 SOURCE_ROOT = Path(
     os.environ.get(
-        "MARINE_MAMMAL_NC_FIG6_SOURCE_ROOT",
+        "MARINE_MAMMAL_FIG6_SOURCE_ROOT",
         PACKAGE_ROOT / "source_data" / "Fig6_species_ancestral_fingerprints",
     )
 ).expanduser().resolve()
 OUT = Path(
     os.environ.get(
-        "MARINE_MAMMAL_NC_FIG6_OUTPUT",
+        "MARINE_MAMMAL_FIG6_OUTPUT",
         PACKAGE_ROOT / "reproduction_outputs" / "Figure6",
     )
 ).expanduser().resolve()
@@ -308,7 +308,7 @@ Panel A shows fitted projection profiles for representative terminal species and
 
 ## Terminal species
 - Killer whale, Weddell seal, dugong and polar bear provide representative marine and edge portraits.
-- California sea lion and walrus are retained as NC core/heterogeneous pinniped portraits.
+- California sea lion and walrus are retained as core/heterogeneous pinniped portraits.
 - Sea otter is retained as a marine-edge decoupling case.
 - Platanista, Inia and baiji bridge to the river-dolphin / Fig. 5 analysis.
 - Hippopotamus, small-clawed otter and giant otter represent non-marine aquatic controls.
@@ -325,7 +325,7 @@ Terminal rows use corrected full-data terminal fitted projections. Internal rows
 
     qc = [
         ("representative_terminal_species_included", "PASS", "Killer whale, Weddell seal, dugong and polar bear included."),
-        ("california_sea_lion_walrus_included", "PASS", "NC core/heterogeneous pinniped portraits included."),
+        ("california_sea_lion_walrus_included", "PASS", "core/heterogeneous pinniped portraits included."),
         ("river_dolphin_bridge_species_included", "PASS", "Platanista, Inia, baiji included."),
         ("non_marine_aquatic_controls_included", "PASS", "Hippo, small-clawed otter, giant otter included."),
         ("ancestor_rows_included", "PASS", "Nine internal/ancestor rows included, including Sirenia and Dugong+Hydrodamalis."),
@@ -337,7 +337,7 @@ Terminal rows use corrected full-data terminal fitted projections. Internal rows
 
 def package_outputs() -> Path:
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    pkg_name = f"MarineMammal_NC_Figure6A_reproduction_{timestamp}"
+    pkg_name = f"MarineMammal_Figure6A_reproduction_{timestamp}"
     pkg_dir = REVIEW_ROOT / pkg_name
     pkg_dir.mkdir(parents=True, exist_ok=True)
     keep = [

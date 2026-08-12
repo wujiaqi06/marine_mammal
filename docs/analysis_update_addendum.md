@@ -1,11 +1,11 @@
-# NC submission addendum
+# Analysis update addendum
 
-Release `v1.1-nc-submission` extends the public `v1.0-endpoint-fix` code
+Release `v1.1-analysis-update` extends the public `v1.0-endpoint-fix` code
 baseline without changing endpoint-fix scientific results. It adds the current
-NC Fig. 6 and Supplementary Fig. S3 code, lightweight Source Data and
+Fig. 6 and Supplementary Fig. S3 code, lightweight Source Data and
 reviewer-facing reproducibility checks under:
 
-- `code/12_NC_species_ancestral_fingerprints/`
+- `code/12_species_ancestral_fingerprints/`
 - `source_data/Fig6_species_ancestral_fingerprints/`
 - `source_data/FigS3_ancestor_fingerprints/`
 
